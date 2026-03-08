@@ -16,7 +16,7 @@ layout: person
 linkedin: https://www.linkedin.com/in/duong-le-ba-tung-33a6b31b9/
 order: 1
 photo: /assets/images/people/le_ba_tung_duong.jpg
-role_group: Executive Board
+role_group: Members
 scholar: https://scholar.google.com/citations?user=zA3E5pQAAAAJ&hl=en&oi=ao
 services:
   conferences: []

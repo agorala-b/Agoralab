@@ -28,7 +28,7 @@ layout: person
 linkedin: null
 order: 1
 photo: /assets/images/people/doan_thi_anh_tho.jpg
-role_group: Executive Board
+role_group: Members
 scholar: null
 services:
   activities:

@@ -13,7 +13,7 @@ layout: person
 linkedin: https://www.linkedin.com/in/ha-phuong-vu-17210a248/
 order: 1
 photo: /assets/images/people/vu_ha_phuong.jpg
-role_group: Executive Board
+role_group: Members
 scholar: https://scholar.google.com/citations?hl=vi&authuser=1&user=IXFwFVsAAAAJ
 services:
   conferences: []
