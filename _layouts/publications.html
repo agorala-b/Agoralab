@@ -1,0 +1,85 @@
+---
+layout: default
+---
+
+<div class="agil-section" style="max-width: 1100px; margin: 0 auto; padding: 4rem 1.5rem;">
+    <h1 class="agil-section-title" style="margin-bottom: 3rem; color: var(--agil-primary);">Publications</h1>
+
+    {% assign current_year = "0000" %}
+    {% assign sorted_pubs = site.data.publications | sort: 'year' | reverse %}
+
+    {% for pub in sorted_pubs %}
+    {% assign pub_year = pub.year | downcase %}
+    {% if pub_year != current_year %}
+    {% if forloop.first == false %}
+</div> <!-- Close previous year's grid -->
+</div> <!-- Close previous year's block -->
+{% endif %}
+
+<div style="margin-bottom: 5rem;">
+    <h2
+        style="font-size: 2.5rem; color: var(--agil-text); border-bottom: 4px solid var(--agil-primary); padding-bottom: 0.5rem; margin-bottom: 2rem; display: inline-block;">
+        {{ pub.year }}</h2>
+    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; align-items: start;" class="pub-year-grid">
+        {% assign current_year = pub_year %}
+        {% endif %}
+
+        <!-- Publication Card -->
+        {% assign type_label = pub.type | capitalize %}
+        <div style="background: var(--agil-bg); border-radius: var(--agil-radius); overflow: hidden; box-shadow: var(--agil-shadow); border: 1px solid var(--agil-border); display: flex; flex-direction: column; transition: transform 0.3s, box-shadow 0.3s;"
+            onmouseover="this.style.transform='translateY(-4px)'; this.style.boxShadow='var(--agil-shadow-lg)';"
+            onmouseout="this.style.transform='none'; this.style.boxShadow='var(--agil-shadow)';">
+            <!-- Thumbnail -->
+            <div
+                style="width: 100%; height: 200px; overflow: hidden; background: var(--agil-muted); position: relative;">
+                <!-- Type Badge -->
+                <span
+                    style="position: absolute; top: 1rem; right: 1rem; background: var(--agil-primary); color: white; padding: 4px 12px; border-radius: 20px; font-size: 0.75rem; font-weight: 600; z-index: 10; box-shadow: var(--agil-shadow);">{{
+                    type_label }}</span>
+                <img src="{{ pub.thumbnail | relative_url }}" alt="{{ pub.title }}"
+                    onerror="this.src='{{ '/assets/images/logo.png' | relative_url }}';"
+                    style="width: 100%; height: 100%; object-fit: cover;">
+            </div>
+
+            <!-- Info Block -->
+            <div style="padding: 1.5rem; display: flex; flex-direction: column; flex: 1;">
+                <h3
+                    style="font-size: 1.125rem; font-weight: 700; color: var(--agil-text); margin-bottom: 0.75rem; line-height: 1.4;">
+                    {{ pub.title }}</h3>
+                <p style="font-size: 0.9rem; color: var(--agil-text-light); margin-bottom: 0.5rem; font-style: italic;">
+                    {{ pub.authors }}</p>
+                <p style="font-size: 0.9rem; color: var(--agil-text); font-weight: 600; margin-bottom: 1.5rem;">{{
+                    pub.venue }}</p>
+
+                <div style="display: flex; gap: 1rem; margin-top: auto;">
+                    {% if pub.paper_link %}
+                    <a href="{{ pub.paper_link }}" target="_blank"
+                        style="padding: 0.5rem 1rem; background: var(--agil-primary); color: white; border-radius: var(--agil-radius); font-size: 0.875rem; font-weight: 600; text-decoration: none; transition: background 0.3s;"
+                        onmouseover="this.style.background='var(--agil-primary-dark)';"
+                        onmouseout="this.style.background='var(--agil-primary)';">View Paper</a>
+                    {% endif %}
+                    {% if pub.github_link %}
+                    <a href="{{ pub.github_link }}" target="_blank"
+                        style="padding: 0.5rem 1rem; background: var(--agil-text); color: white; border-radius: var(--agil-radius); font-size: 0.875rem; font-weight: 600; text-decoration: none; transition: background 0.3s;"
+                        onmouseover="this.style.background='#000';"
+                        onmouseout="this.style.background='var(--agil-text)';">GitHub</a>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+
+        {% if forloop.last %}
+    </div> <!-- Close last grid -->
+</div> <!-- Close last block -->
+{% endif %}
+{% endfor %}
+
+</div>
+
+<style>
+    @media (max-width: 900px) {
+        .pub-year-grid {
+            grid-template-columns: 1fr !important;
+        }
+    }
+</style>

@@ -1,0 +1,24 @@
+- title: "Interpretable Landslide Risk Assessment via Machine Learning and Explainable AI"
+  authors: "Nguyen, Duc Quang-Anh and Vu, Ha Phuong and Le, Ba Tung Duong and Mai, Hanh Thi and Thanh, Hoa Do"
+  year: 2025
+  type: "conference"
+  venue: "Proceedings of the International Student Science Forum"
+  thumbnail: "assets/images/publications/landslide.jpg"
+  paper_link: "https://example.com/paper/landslide-risk-2025"
+
+- title: "Aspect-Based Sentiment Analysis for Vietnamese Educational Reviews"
+  authors: "Nguyen, Minh Anh and Duc, Pham Minh and Pham, Phuong Thao"
+  year: 2024
+  type: "journal"
+  venue: "Journal of Educational Data Mining"
+  thumbnail: "assets/images/publications/absa.jpg"
+  github_link: "https://github.com/example/absa"
+  paper_link: "https://example.com/paper/absa-vietnamese-2024"
+
+- title: "Deep learning models for opinion mining in E-commerce platforms"
+  authors: "Le, Minh Viet and Pham, Toan"
+  year: 2023
+  type: "journal"
+  venue: "International Journal of Artificial Intelligence Applications"
+  thumbnail: "assets/images/publications/ecommerce.jpg"
+  paper_link: "https://example.com/paper/ecommerce"

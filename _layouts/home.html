@@ -1,0 +1,112 @@
+---
+layout: default
+---
+
+<!-- Part 1: Hero -->
+<section class="agil-hero">
+    <div class="agil-hero-inner">
+        <div class="agil-hero-text">
+            <h1>Welcome to <span>AgIL</span></h1>
+            <p>We concentrate on machine-learning models and algorithms to understand natural language. Here are our
+                major research topics that we are currently interested in.</p>
+            <a href="{{ '/people.html' | relative_url }}" class="agil-btn-primary">Meet Our People →</a>
+        </div>
+        <div class="agil-hero-visual">
+            <img src="{{ '/assets/images/home-hero.jpg' | relative_url }}" alt="AgIL Lab Research">
+        </div>
+    </div>
+</section>
+
+<!-- Part 2: About Us (Content preserved from original) -->
+<section class="agil-section" id="about">
+    <h2 class="agil-section-title">About Us</h2>
+    <div class="agil-about-content" style="line-height: 1.8; color: var(--agil-text); font-size: 1.05rem;">
+        <p>"<b>Agora Intelligence Lab (AgIL)</b> is an independent, open research lab currently not affiliated with any
+            institution or organization. AgIL is founded on the principle of academic freedom, fostering a collaborative
+            environment where researchers, students, and practitioners can explore and develop innovative ideas in
+            Artificial Intelligence without structural constraints. AgIL adopts a multi-disciplinary and multi problem
+            oriented approach to AI research. Rather than focusing solely on technical dimensions, the lab embraces a
+            broad spectrum of domains surrounding AI, including computer science, social sciences, linguistics,
+            cognitive science, ethics, and human-centered studies. We view AI not only as a computational tool but as a
+            transformative paradigm that intersects with society, language, culture, and human behavior. Our research
+            spans core AI methodologies such as machine learning, deep learning, computer vision, natural language
+            processing, and intelligent systems while also addressing social impact, language technologies, AI ethics,
+            human AI interaction, and interdisciplinary applications. By integrating technical rigor with social and
+            linguistic perspectives, AgIL aims to advance AI systems that are not only intelligent, but also
+            responsible, interpretable, and societally aligned. AgIL aspires to become a dynamic and open intellectual
+            hub where diverse disciplines converge, bold ideas are cultivated, and impactful research is created at the
+            intersection of AI and the broader human context."</p>
+    </div>
+</section>
+
+<!-- Part 3: Slide (Simple JS Carousel client-side only) -->
+<section class="agil-section" style="background-color: var(--agil-muted); max-width: 100%;" id="gallery">
+    <div style="max-width: 1100px; margin: 0 auto;">
+        <h2 class="agil-section-title">Gallery</h2>
+        <div class="agil-carousel-container"
+            style="position: relative; border-radius: var(--agil-radius); overflow: hidden; box-shadow: var(--agil-shadow-lg);">
+            <div class="agil-carousel-track" id="home-carousel">
+                <img src="{{ '/assets/images/carousel/slide_3.jpg' | relative_url }}"
+                    style="width: 100%; display: block;" class="carousel-img active">
+                <img src="{{ '/assets/images/carousel/slide_5.jpg' | relative_url }}"
+                    style="width: 100%; display: none;" class="carousel-img">
+                <img src="{{ '/assets/images/carousel/slide_4.jpg' | relative_url }}"
+                    style="width: 100%; display: none;" class="carousel-img">
+                <img src="{{ '/assets/images/carousel/slide_6.jpg' | relative_url }}"
+                    style="width: 100%; display: none;" class="carousel-img">
+            </div>
+            <button id="carousel-prev"
+                style="position: absolute; top: 50%; left: 1rem; transform: translateY(-50%); background: rgba(255,255,255,0.8); border: none; width: 40px; height: 40px; border-radius: 50%; cursor: pointer; font-size: 1.5rem; z-index: 10;">&#10094;</button>
+            <button id="carousel-next"
+                style="position: absolute; top: 50%; right: 1rem; transform: translateY(-50%); background: rgba(255,255,255,0.8); border: none; width: 40px; height: 40px; border-radius: 50%; cursor: pointer; font-size: 1.5rem; z-index: 10;">&#10095;</button>
+        </div>
+    </div>
+</section>
+
+<!-- Part 4: Recent News (Combined News & Activities, Client-side pagination) -->
+<section class="agil-section" id="news">
+    <h2 class="agil-section-title">Recent News & Activities</h2>
+    <div class="agil-news-container" id="news-container">
+        {% for news in site.data.news %}
+        <div class="agil-news-card" data-page="1"
+            style="display: none; background: var(--agil-bg); border-radius: var(--agil-radius); padding: 1.5rem; margin-bottom: 1rem; box-shadow: var(--agil-shadow); border-left: 4px solid var(--agil-primary);">
+            <span style="font-size: 0.875rem; color: var(--agil-primary); font-weight: 600;">{{ news.date }}</span>
+            <h3 style="margin: 0.5rem 0; color: var(--agil-text);">{{ news.title }}</h3>
+            <p style="color: var(--agil-text-light); margin: 0; line-height: 1.5;">{{ news.content }}</p>
+        </div>
+        {% endfor %}
+    </div>
+
+    <div class="agil-pagination" id="news-pagination"
+        style="display: flex; justify-content: center; gap: 0.5rem; margin-top: 2rem;">
+        <!-- Rendered by JS -->
+    </div>
+</section>
+
+<!-- Inline scripts to handle simple components -->
+<script>
+    // Carousel logic
+    document.addEventListener('DOMContentLoaded', () => {
+        const images = document.querySelectorAll('.carousel-img');
+        if (images.length === 0) return;
+        let currentIdx = 0;
+
+        document.getElementById('carousel-next').addEventListener('click', () => {
+            images[currentIdx].style.display = 'none';
+            currentIdx = (currentIdx + 1) % images.length;
+            images[currentIdx].style.display = 'block';
+        });
+
+        document.getElementById('carousel-prev').addEventListener('click', () => {
+            images[currentIdx].style.display = 'none';
+            currentIdx = (currentIdx - 1 + images.length) % images.length;
+            images[currentIdx].style.display = 'block';
+        });
+
+        // Auto play
+        setInterval(() => {
+            document.getElementById('carousel-next').click();
+        }, 5000);
+    });
+</script>
+<script src="{{ '/assets/js/pagination.js' | relative_url }}"></script>

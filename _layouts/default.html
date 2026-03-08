@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% if page.title %}{{ page.title }} — {% endif %}{{ site.title }} — AgIL</title>
+    <meta name="description"
+        content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+
+    <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/agil-modern.css' | relative_url }}">
+</head>
+
+<body>
+
+    <!-- ===== NAVBAR ===== -->
+    <!-- Note: Logo + text "Agora Intelligence Lab", Center menu, Responsive -->
+    <nav class="agil-navbar" id="site-nav">
+        <div class="agil-nav-inner">
+            <a href="{{ '/' | relative_url }}" class="agil-nav-brand">
+                <img src="{{ '/assets/images/logo.png' | relative_url }}" alt="Agora Intelligence Lab Logo"
+                    class="agil-logo-img">
+                <span class="agil-brand-text">Agora Intelligence Lab</span>
+            </a>
+
+            <button class="agil-hamburger" aria-label="Toggle menu" id="mobile-menu-btn">
+                <span></span><span></span><span></span>
+            </button>
+
+            <div class="agil-nav-links" id="nav-links">
+                <a href="{{ '/' | relative_url }}" class="{% if page.url == '/' %}active{% endif %}">Home</a>
+                <a href="{{ '/people.html' | relative_url }}"
+                    class="{% if page.url contains '/people' %}active{% endif %}">People</a>
+                <a href="{{ '/publications.html' | relative_url }}"
+                    class="{% if page.url contains '/publications' %}active{% endif %}">Publication</a>
+                <a href="{{ '/datasets.html' | relative_url }}"
+                    class="{% if page.url contains '/datasets' %}active{% endif %}">Dataset</a>
+                <a href="{{ '/pics.html' | relative_url }}"
+                    class="{% if page.url contains '/pics' %}active{% endif %}">Pics</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ===== MAIN CONTENT ===== -->
+    <main class="agil-main-content">
+        {{ content }}
+    </main>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="agil-footer site-footer">
+        <div class="agil-footer-container footer-container">
+            <div class="agil-contact-info contact-info">
+                <h3>Contact Us</h3>
+                <p><strong>Agora Intelligence Lab — AgIL</strong></p>
+                <p>Independent Open Research Lab</p>
+                <p>Vietnam</p>
+                <p>Email: <a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+            </div>
+            <div class="agil-footer-bottom footer-bottom">
+                &copy; 2026 AgIL — Agora Intelligence Lab. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+    <!-- JS -->
+    <script src="{{ '/assets/js/nav.js' | relative_url }}"></script>
+    {% if page.custom_js %}
+    {% for js in page.custom_js %}
+    <script src="{{ js | relative_url }}"></script>
+    {% endfor %}
+    {% endif %}
+
+</body>
+
+</html>

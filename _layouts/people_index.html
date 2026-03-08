@@ -1,0 +1,39 @@
+---
+layout: default
+---
+
+<div class="agil-section" style="max-width: 1100px; margin: 0 auto; padding: 4rem 1.5rem;">
+    <h1 class="agil-section-title" style="margin-bottom: 3rem; color: var(--agil-primary);">Our People</h1>
+
+    {% assign roles = "Executive Board,Research Assistants,Interns,Alumni" | split: "," %}
+
+    {% for role in roles %}
+    {% assign matched_people = site.people | where: "role_group", role | sort: "order" %}
+
+    {% if matched_people.size > 0 %}
+    <div style="margin-bottom: 4rem;">
+        <h2
+            style="font-size: 1.5rem; color: var(--agil-text); border-bottom: 2px solid var(--agil-border); padding-bottom: 0.5rem; margin-bottom: 2rem;">
+            {{ role }}</h2>
+
+        <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 2rem;">
+            {% for person in matched_people %}
+            <a href="{{ person.url | relative_url }}"
+                style="text-decoration: none; color: inherit; display: flex; flex-direction: column; align-items: center; text-align: center; transition: transform 0.3s; background: var(--agil-bg); padding: 1.5rem; border-radius: var(--agil-radius); box-shadow: var(--agil-shadow); border: 1px solid var(--agil-border);"
+                onmouseover="this.style.transform='translateY(-5px)'; this.style.borderColor='var(--agil-primary)';"
+                onmouseout="this.style.transform='none'; this.style.borderColor='var(--agil-border)';">
+                <img src="{{ person.photo | relative_url }}" alt="{{ person.title }}"
+                    style="width: 140px; height: 140px; border-radius: 50%; object-fit: cover; margin-bottom: 1rem; border: 3px solid var(--agil-muted);">
+                <h3 style="font-size: 1.125rem; font-weight: 600; margin-bottom: 0.25rem; color: var(--agil-text);">{{
+                    person.title }}</h3>
+                <p style="font-size: 0.875rem; color: var(--agil-primary); font-weight: 500; margin-bottom: 0.25rem;">{{
+                    person.job_title }}</p>
+                <p style="font-size: 0.875rem; color: var(--agil-text-light);">{{ person.department }}</p>
+            </a>
+            {% endfor %}
+        </div>
+    </div>
+    {% endif %}
+    {% endfor %}
+
+</div>

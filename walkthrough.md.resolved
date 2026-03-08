@@ -1,0 +1,58 @@
+# Hoàn thành: Pipeline Quản lý Publication (BibTeX → YAML)
+
+Hệ thống quản lý publication tự động cho website AgIL Lab đã được triển khai thành công theo đúng yêu cầu:
+**Google Scholar → BibTeX → YAML → Hiển thị trên website.**
+
+## 1. Các thay đổi đã thực hiện
+
+- **Tạo Script Convert ([scripts/bib2yaml.py](file:///home/viet/Downloads/web/scripts/bib2yaml.py))**: 
+  - Đọc file [publications.bib](file:///home/viet/Downloads/web/publications.bib).
+  - Parse BibTeX sử dụng Regex (không phụ thuộc external library).
+  - Map dữ liệu: `title`, [author](file:///home/viet/Downloads/web/scripts/bib2yaml.py#55-74) (chuyển đổi first name last name), [year](file:///home/viet/Downloads/web/scripts/bib2yaml.py#230-235), `journal`/`booktitle`, `doi`, `url`.
+  - Chuyển đổi mã escape LaTeX/BibTeX sang Unicode (hỗ trợ tên Tiếng Việt: á, ố, đ...).
+  - Loại bỏ duplicate dựa trên Title.
+  - Sắp xếp tự động theo năm giảm dần.
+  - Xuất ra file YAML chuẩn.
+  
+- **Tạo File Mẫu ([publications.bib](file:///home/viet/Downloads/web/publications.bib))**:
+  - Gồm 4 publications mẫu phục vụ kiểm thử hệ thống.
+  
+- **Cập nhật Giao diện ([publications.html](file:///home/viet/Downloads/web/publications.html))**:
+  - Script JS giờ đây đọc từ **một file duy nhất** [publications/data/publications.yml](file:///home/viet/Downloads/web/publications/data/publications.yml) thay vì mảng các file tĩnh.
+  - Thêm hiển thị thông tin Journal (in nghiêng) tự động bắt từ `journal`, `booktitle` hoặc `publisher` của file BibTeX.
+
+- **Cập nhật Navbar Logo (Nhiệm vụ mới bổ sung)**:
+  - Thay thế chữ `AgIL` trên thanh menu (navbar) bằng ảnh `slide_1.png` theo yêu cầu bổ sung.
+  - Đã được cập nhật đồng bộ ở tất cả các trang: [index.html](file:///home/viet/Downloads/web/index.html), [research.html](file:///home/viet/Downloads/web/research.html), [member.html](file:///home/viet/Downloads/web/member.html), [publications.html](file:///home/viet/Downloads/web/publications.html), [datasets.html](file:///home/viet/Downloads/web/datasets.html), [activities.html](file:///home/viet/Downloads/web/activities.html) và [member/profile.html](file:///home/viet/Downloads/web/member/profile.html).
+
+- **Cập nhật Test Script ([tests/check_links.py](file:///home/viet/Downloads/web/tests/check_links.py))**:
+  - Sửa script để hỗ trợ kiểm tra URL links trong file YAML dạng Array (List of dictionaries), thay vì chỉ support mỗi file là 1 dict như phiên bản cũ.
+
+## 2. Hướng dẫn cập nhật Publication mới
+
+Dưới đây là workflow dành cho Lab/Giáo sư để thêm bài báo mới vào website:
+
+1. **Export từ Google Scholar**: Lấy code BibTeX của các bài báo mới trên Google Scholar.
+2. **Copy vào file [.bib](file:///home/viet/Downloads/web/publications.bib)**: Paste đoạn BibTeX vào cuối file [publications.bib](file:///home/viet/Downloads/web/publications.bib) ở thư mục gốc /home/viet/Downloads/web/.
+3. **Chạy Script**: Mở terminal, chạy lệnh sau:
+   ```bash
+   python3 scripts/bib2yaml.py
+   ```
+4. **Xong!** Mở trình duyệt (hoặc tải website lên server), danh sách Publications đã được update, tự động filter duplicate và sort ngày tháng hợp lý.
+
+## 3. Hình ảnh / Bằng chứng kiểm thử
+
+Script chạy thành công:
+```
+⏳ Đang parse `/home/viet/Downloads/web/publications.bib`...
+✅ Tìm thấy 4 publications trong BibTeX.
+ℹ️ Đã loại bỏ duplicate: Aspect-Based Sentiment Analysis for Vietnamese Educational Reviews
+✅ Đã lưu /home/viet/Downloads/web/publications/data/publications.yml
+🎉 Pipeline hoàn tất! F5 website để xem kết quả.
+```
+
+Website hiển thị chính xác (sau khi lấy dữ liệu từ `publications.yml`) cùng thanh Navbar đã update bằng hình ảnh `slide_1.png`:
+
+![Kết quả Browser verify](/home/viet/.gemini/antigravity/brain/34814504-23e2-4995-9d73-6ed620b9c59b/publications_page_top_1772944653947.png)
+
+![Recording Browser Validation](/home/viet/.gemini/antigravity/brain/34814504-23e2-4995-9d73-6ed620b9c59b/verify_publications_page_1772944610280.webp)
