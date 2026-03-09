@@ -1,24 +1,215 @@
+- title: "Optimizing traffic light control using YOLOv8 for real-time vehicle detection and traffic density"
+  authors: "Nguyen, Duc Quang-Anh and Kim, Dinh Thai and Nguyen, Quynh-Chi and Thi, Hanh Thi Mai and Vu, Quang and Do, Xuan Minh and Nguyen, Van Ninh"
+  year: 2024
+  type: "conference"
+  venue: "2024 9th International Conference on Integrated Circuits, Design, and System"
+  thumbnail: "assets/images/publications/traffic_light_v8.jpg"
+  paper_link: "https://www.researchgate.net/publication/382622485_Optimizing_Traffic_Light_Control_using_YOLOv8_for_Real-Time_Vehicle_Detection_and_Traffic_Density"
+
+- title: "Lychee instance segmentation at different growth stages using YOLOv8-seg model"
+  authors: "Kim, Dinh Thai and Nguyen, Duc Quang-Anh and Nguyen, Tuan Minh and Nguyen, Minh Anh and Pham, Huy Bang and Do, Tien Thanh"
+  year: 2024
+  type: "conference"
+  venue: "2024 9th International Conference on Integrated Circuits, Design, and System"
+  thumbnail: "assets/images/publications/lychee_seg.jpg"
+  paper_link: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mEouKaQAAAAJ&citation_for_view=mEouKaQAAAAJ:u-x6o8ySG0sC"
+
+- title: "Emotional Vietnamese speech-based depression diagnosis using dynamic attention mechanism"
+  authors: "Nguyen, Duc Quang-Anh and Ha, Manh-Hung and Dinh, Thai Kim and Pham, Minh-Duc and Nguyen-Van, Ninh"
+  year: 2024
+  type: "conference"
+  venue: "International Conference on Applied Mathematics and Computer Science"
+  thumbnail: "assets/images/publications/depression_diagnosis.jpg"
+  paper_link: "https://doi.org/10.1007/978-3-032-00267-9_23"
+
+- title: "VNEMOS: Vietnamese speech emotion inference using deep neural networks"
+  authors: "Nguyen, Duc Quang-Anh and Ha, Manh-Hung and Nguyen, Quynh-Chi and Thi, Hanh Thi Mai and Vu, Quang and Do, Xuan Minh and Nguyen, Duc Cuong"
+  year: 2024
+  type: "conference"
+  venue: "2024 9th International Conference on Integrated Circuits, Design, and System"
+  thumbnail: "assets/images/publications/vnemos.jpg"
+  paper_link: "https://doi.org/10.1109/icdv61346.2024.10616411"
+
+- title: "Lightweight CFE-YOLOv8s-Seg model for tomato ripeness instance segmentation"
+  authors: "Nguyen, Ngoc-Linh and Nguyen, Duc Quang-Anh and Kim, Dinh Thai and Nguyen, Manh-Quan and Bui, Truong-Giang Le"
+  year: 2025
+  type: "chapter"
+  venue: "Applied Mathematics and Computer Science (Springer)"
+  thumbnail: "assets/images/publications/tomato_ripeness.jpg"
+  paper_link: "https://doi.org/10.1007/978-3-032-00267-9_17"
+
+- title: "Efficient Multi-Scale Attention Based on Mobilenetv4 Followed OmniSPPF and ODGC2f for Small-Scale Egg Identification"
+  authors: "Nguyen, Duc Quang-Anh and Ha, Manh-Hung and Pham, Duc Minh and Nguyen, Minh Anh and Le, Ba Tung Duong and Do, Lan-Anh and Pham, Phuong Ngan"
+  year: 2026
+  type: "chapter"
+  venue: "Modelling, Computation and Optimization in Information Systems"
+  thumbnail: "assets/images/publications/egg_id.jpg"
+  paper_link: "https://www.researchgate.net/publication/390321011_Efficient_Multi-Scale_Attention_Based_On_Mobilenetv4_Followed_OmniSPPF_And_ODGC2f_For_Small-Scale_Egg_Identification"
+
+- title: "Colubrid-Net: A Unified Cross-Modal Framework for Hydrological Forecasting in An Khe Reservoir, Vietnam"
+  authors: "Nguyen, Duc Quang-Anh and Nguyen, Minh-Anh and Tran, Thi Ngan and Hoang, Thi Minh Chau"
+  year: 2026
+  type: "journal"
+  venue: "IEEE Geoscience and Remote Sensing Letters"
+  thumbnail: "assets/images/publications/colubrid_net.jpg"
+  paper_link: "https://doi.org/10.1109/LGRS.2025.1545598X"
+
+- title: "Enhancing Physical Rehabilitation Evaluation with Temporal Graph Convolution Networks"
+  authors: "Nguyen, Duc Cuong and Ha, Manh-Hung and Chan, Anh Long Quang and Nguyen, Duc Quang-Anh"
+  year: 2025
+  type: "chapter"
+  venue: "Intelligent Systems & Networks"
+  thumbnail: "assets/images/publications/rehabilitation_gcn.jpg"
+  paper_link: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mEouKaQAAAAJ&citation_for_view=mEouKaQAAAAJ:d1gS?_9vo_8C"
+
+- title: "Speech-based Multimodel Pipeline for Vietnamese Services Quality Assessment"
+  authors: "Nguyen, Duc Quang-Anh and Pham, Minh-Duc and Dinh, Thai Kim"
+  year: 2024
+  type: "preprint"
+  venue: "arXiv"
+  thumbnail: "assets/images/publications/service_quality.jpg"
+  paper_link: "https://arxiv.org/abs/2412.09829"
+
+- title: "Deep Temporal-Spatial Learning for Early Prediction of Human Blastocyst Formation from Time-Lapse Videos"
+  authors: "Pham, Minh-Duc and Nguyen, Duc Quang-Anh and Kim, Dinh Thai and Nguyen, Van Quang and Nguyen, Minh-Anh"
+  year: 2025
+  type: "conference"
+  venue: "International Conference on Optimization, Modeling, Simulation, and Analytics (COMOSA)"
+  thumbnail: "assets/images/publications/blastocyst.jpg"
+  paper_link: "https://comosa.vn/programs.php"
+
+- title: "MoodFlow: Cross-Modal Music Recommendation for Short-Form Videos via Neural ODEs with Mood-Aligned Music Recommendations"
+  authors: "Tran, Thi Ngan and Pham, Minh-Duc and Nguyen, Duc Quang-Anh and Nguyen, Hai Nam"
+  year: 2025
+  type: "conference"
+  venue: "International Conference on Computational Data and Social Networks (CANS)"
+  thumbnail: "assets/images/publications/moodflow.jpg"
+  paper_link: "https://www.researchgate.net/publication/383125416_MoodFlow_Cross-Modal_Music_Recommendation"
+
+- title: "VietSGG: A Benchmark Dataset and Baseline models for Vietnamese Scene Graph Generation"
+  authors: "Ngo, Tam and Tran, Thi Ngan and Tran, Manh Tuan and Pham, Minh Duc and Nguyen, Duc Quang-Anh"
+  year: 2025
+  type: "conference"
+  venue: "11th EAI International Conference on Smart Objects and Technologies for Social Good"
+  thumbnail: "assets/images/publications/vietsgg.jpg"
+  paper_link: "https://www.researchgate.net/publication/396688757_VietSGG_A_Benchmark_Dataset_and_Baseline_models_for_Vietnamese_Scene_Graph_Generation"
+
+- title: "O3D-Net: A Lightweight Neural ODE-Based Architecture for Efficient Skeleton-Based Human Action Recognition"
+  authors: "Pham, Minh-Duc and Nguyen, Duc Quang-Anh and Tran, Tien Nam and Nguyen, Minh Anh and Nguyen, Hai Nam"
+  year: 2025
+  type: "conference"
+  venue: "The 14th International Conference on Computational Data and Social Networks (CANS)"
+  thumbnail: "assets/images/publications/o3d_net.jpg"
+  paper_link: "https://www.researchgate.net/publication/396848858_O3D-Net_A_Lightweight_Neural_ODE-Based_Architecture_for_Efficient_Skeleton-Based_Human_Action_Recognition"
+
+- title: "Transparent AI for Disaster Management: Explainable Landslide Prediction Models to Support Decision-Making"
+  authors: "Nguyen, Duc Quang-Anh and Vu, Ha Phuong and Ba, Duong Le Tung and Mai, Phung Nga and Thanh, Hoa Do"
+  year: 2025
+  type: "conference"
+  venue: "International Conference on Optimization, Modeling, Simulation, and Analytics (COMOSA)"
+  thumbnail: "assets/images/publications/transparent_landslide.jpg"
+  paper_link: "https://www.researchgate.net/publication/393772910_Transparent_AI_for_Disaster_Management_Explainable_Landslide_Prediction_Models_to_Support_Decision-Making"
+
+- title: "LLaMA3-Inspired Autoregressive Visual-Textual Fusion Augmented Stable Diffusion for Emoji Generation"
+  authors: "Nguyen, Duc Quang-Anh and Tran, Tiep Quang and Pham, Minh Duc and Tran, Ngoc Tien and Omar, Michael"
+  year: 2025
+  type: "conference"
+  venue: "The 14th International Conference on Computational Data and Social Networks (CANS)"
+  thumbnail: "assets/images/publications/creamoji.jpg"
+  paper_link: "https://www.researchgate.net/publication/396848933_LLaMA3-Inspired_Autoregressive_Visual-Textual_Fusion_Augmented_Stable_Diffusion_for_Emoji_Generation"
+
 - title: "Interpretable Landslide Risk Assessment via Machine Learning and Explainable AI"
   authors: "Nguyen, Duc Quang-Anh and Vu, Ha Phuong and Le, Ba Tung Duong and Mai, Hanh Thi and Thanh, Hoa Do"
   year: 2025
   type: "conference"
   venue: "Proceedings of the International Student Science Forum"
   thumbnail: "assets/images/publications/landslide.jpg"
-  paper_link: "https://example.com/paper/landslide-risk-2025"
+  paper_link: "https://www.researchgate.net/publication/393127430_Interpretable_Landslide_Risk_Assessment_via_Machine_Learning_and_xAI"
 
-- title: "Aspect-Based Sentiment Analysis for Vietnamese Educational Reviews"
-  authors: "Nguyen, Minh Anh and Duc, Pham Minh and Pham, Phuong Thao"
-  year: 2024
-  type: "journal"
-  venue: "Journal of Educational Data Mining"
-  thumbnail: "assets/images/publications/absa.jpg"
-  github_link: "https://github.com/example/absa"
-  paper_link: "https://example.com/paper/absa-vietnamese-2024"
+- title: "Soft Voting Ensemble of Heterogeneous SVM Kernels for Computational Identification of Lifespan-Extending Compounds"
+  authors: "Nguyen, Duc Quang-Anh and Dinh, Thai Kim and Pham, Phuong Ngan and Tran, Trung Hieu and Pham, Phuong Thao and Do, Tien Thanh"
+  year: 2025
+  type: "conference"
+  venue: "Advances in Data Science and Optimization of Complex Systems"
+  thumbnail: "assets/images/publications/compounds_svm.jpg"
+  paper_link: "https://www.researchgate.net/publication/396790973_Soft_Voting_Ensemble_of_Heterogeneous_SVM_Kernels_for_Computational_Identification_of_Lifespan-Extending_Compounds"
 
-- title: "Deep learning models for opinion mining in E-commerce platforms"
-  authors: "Le, Minh Viet and Pham, Toan"
-  year: 2023
+- title: "Explainable LSTM-Based Demand Forecasting for Multi-Channel Retail Supply Chain Performance Analysis"
+  authors: "Tran, Ha Thu and Nguyen, Duc Quang-Anh and Nguyen, Hai Yen and Ha, Manh-Hung and Pham, Thao Phuong and Ba, Duong Le Tung"
+  year: 2025
+  type: "conference"
+  venue: "International Conference on Applied Mathematics and Computer Science"
+  thumbnail: "assets/images/publications/demand_forecasting.jpg"
+  paper_link: "https://www.researchgate.net/profile/Quang-Anh-Nd"
+
+- title: "Spatial-Temporal Dynamics Skeletal Graph-Based Human Action Recognition for Vietnamese Traffic Police Gestures"
+  authors: "Nguyen, Duc Quang-Anh and Mai, Hanh Thi Nguyen and Nguyen, Tien Dat and Doan, Quang Binh and Vu, Ha Phuong and Do, KO Thi"
+  year: 2025
+  type: "conference"
+  venue: "Proceedings of the International Conference on Intelligent Systems & Networks"
+  thumbnail: "assets/images/publications/traffic_police.jpg"
+  paper_link: "https://www.researchgate.net/profile/Quang-Anh-Nd"
+
+- title: "T2-Nav: Algebraic-Topology-Aware Temporal Graph Memory and Loop Detection for Zero-Shot Visual Navigation"
+  authors: "Nguyen, Duc Quang-Anh and Pham, Minh Duc and Nguyen, Minh Anh and Dang, Tuan"
+  year: 2026
+  type: "conference"
+  venue: "IEEE International Conference on Robotics & Automation (ICRA)"
+  thumbnail: "assets/images/publications/t2_nav.jpg"
+  paper_link: "https://www.researchgate.net/publication/383125416_T2-Nav_Algebraic-Topology-Aware_Temporal_Graph_Memory_and_Loop_Detection_for_Zero-Shot_Visual_Navigation"
+
+- title: "ArborNet: Featherweight Representation Learning for Real-Time Cashew Nut Quality Classification"
+  authors: "Nguyen, Duc Quang-Anh and Dinh, Thai Kim and Nguyen, Minh Anh"
+  year: 2025
+  type: "conference"
+  venue: "Proceedings of the International Conference on Intelligent Systems & Networks"
+  thumbnail: "assets/images/publications/arbornet.jpg"
+  paper_link: "https://www.researchgate.net/publication/383125416_ArborNet_Featherweight_Representation_Learning_for_Real-Time_Cashew_Nut_Quality_Classification"
+
+- title: "Real-Time Egg Inspection with YOLOv5-Seg: From Crack Detection to Mobile Application"
+  authors: "Nguyen, Duc Quang-Anh and Dinh, Thai Kim and Nguyen, Quynh-Chi and Nguyen, Van-Ninh"
+  year: 2025
+  type: "conference"
+  venue: "Proceedings of the International Conference on Intelligent Systems & Networks"
+  thumbnail: "assets/images/publications/egg_inspection_v5.jpg"
+  paper_link: "https://www.researchgate.net/profile/Quang-Anh-Nd"
+
+- title: "Heterogeneous Multi-Model Ensemble for PPE Detection in Construction Environments"
+  authors: "Nguyen, Thi-Nguyen and Nguyen, Duc Quang-Anh and Dinh, Thai Kim and Doan, Duy Tung and Pham, Minh-Duc and Van, Duc Cuong and Nguyen, Minh-Anh"
+  year: 2025
   type: "journal"
-  venue: "International Journal of Artificial Intelligence Applications"
-  thumbnail: "assets/images/publications/ecommerce.jpg"
-  paper_link: "https://example.com/paper/ecommerce"
+  venue: "EAI Endorsed Transactions on Internet of Things"
+  thumbnail: "assets/images/publications/ppe_detection.jpg"
+  paper_link: "https://doi.org/10.4108/eetiot.9971"
+
+- title: "A Thorough Review of Technology Aids for Children With Dyslexia"
+  authors: "Nguyen, Viet Hung and Quynh, N.T. and Nguyen, Duc Quang-Anh and Mai, Thuc N.T."
+  year: 2025
+  type: "chapter"
+  venue: "Advances in Data Science and Optimization of Complex Systems"
+  thumbnail: "assets/images/publications/dyslexia_review.jpg"
+  paper_link: "https://www.researchgate.net/profile/Quang-Anh-Nd"
+
+- title: "Automatic Number Plate Recognition System Using Advanced YOLO and OCR Techniques for Efficient Parking Management"
+  authors: "Nguyen, Thien Van and Nguyen, Quan-Manh and Kim, Dinh Thai and Dao, Nam-Ngoc and Nguyen, Phu-Quang and Nguyen, Le-Hoang"
+  year: 2026
+  type: "chapter"
+  venue: "Springer Book Series"
+  thumbnail: "assets/images/publications/anpr_parking.jpg"
+  paper_link: "https://doi.org/10.1007/978-981-95-1746-6_68"
+
+- title: "Efficient Nonlinear Model Predictive Control for UAV Trajectory Tracking"
+  authors: "Nguyen, Xuan-The and Kim, Dinh Thai and Le, Xuan-Hai and Nguyen, Quang-Thuan"
+  year: 2026
+  type: "chapter"
+  venue: "Springer Book Series"
+  thumbnail: "assets/images/publications/uav_control.jpg"
+  paper_link: "https://doi.org/10.1007/978-3-032-08381-4_25"
+
+- title: "Real-Time Student Behavior Detection in Classroom Using YOLOv8 Model"
+  authors: "Nguyen, Quang-Thuan and Kim, Dinh-Thai and Le, Xuan-Hai and Pham, Anh-Phuong"
+  year: 2026
+  type: "chapter"
+  venue: "Springer Book Series"
+  thumbnail: "assets/images/publications/student_behavior.jpg"
+  paper_link: "https://doi.org/10.1007/978-3-032-08384-5_20"

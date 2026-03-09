@@ -15,7 +15,7 @@ order: 2
 photo: /assets/images/people/tran_duc_luong.jpg
 role_group: Research Assistants
 scholar: null
-title: Trần Đức Lương
+title: Tran Duc Luong
 ---
 
 Born in Hanoi, Vietnam, in 2006, he is currently pursuing a degree in Financial Technology and Digital Business at the International School, Vietnam National University, Hanoi (VNU-IS). He is strongly committed to advancing his research in Machine Learning applications. In addition, he has a keen interest in finance and the practical application of AI to address real-world challenges in social media.

@@ -13,7 +13,7 @@ job_title: Co-Chair
 layout: person
 linkedin: null
 order: 1
-photo: /member/pham_phuong_thao/bd51f46702e28cbcd5f3.jpg
+photo: /assets/images/people/pham_phuong_thao.jpeg
 role_group: Executive Board
 scholar: null
 work_experience:
@@ -22,7 +22,7 @@ work_experience:
   year: Feb 2026 - Present
 publications:
 - "[ResearchGate Profile](https://www.researchgate.net/profile/Thao-Pham-Phuong-5?ev=hdr_xprf)"
-title: Phạm Phương Thảo
+title: Pham Phuong Thao
 ---
 
 Pham Phuong Thao is a final-year Fintech student at the International School, Vietnam National University Hanoi, specializing in data science at the intersection of machine learning and finance. She has hands-on experience across a diverse project portfolio spanning computational biology, computer vision, retail forecasting, and financial risk modeling — including ensemble SVM methods for geroprotector identification, explainable LSTM-based demand forecasting, and ESG-integrated bank risk assessment. Proficient in Python, SQL, Scikit-learn, and Stata, she combines strong statistical foundations with practical ML modeling skills. A recipient of the Third Prize in Student Scientific Research, Thảo is driven by applying data-driven approaches to solve real-world problems in fintech and beyond.

@@ -1,21 +1,24 @@
 ---
 awards: []
-department: Agora Intelligence Lab (AgIL)
+department: Faculty of Computer and Information Science, VNU University of Science
 educations:
-- degree: Researcher
-  field: Artificial Intelligence
-  institution: Agora Intelligence Lab
-  year: 2025
-email: duc.pm@agil.org
-github: null
-job_title: Co-Chair
+- degree: BSc
+  field: Computer and Information Science
+  institution: Hanoi University of Science, Vietnam
+  year: 2024
+email: phamminhduc_t65@hus.edu.vn
+github: https://github.com/pmduc2404
+job_title: Co-chair
 layout: person
-linkedin: null
+linkedin: https://www.linkedin.com/in/pmduck24/
 order: 1
-photo: /assets/images/people/../default_avatar.svg
+photo: /assets/images/people/pham_duc.jpg
+publications:
+- "[Google Scholar Profile](https://scholar.google.com/citations?user=GGXug98AAAAJre)"
 role_group: Executive Board
-scholar: null
-title: Phạm Minh Đức
+scholar: https://scholar.google.com/citations?user=GGXug98AAAAJre
+work_experience: []
+title: Pham Minh Duc
 ---
 
-Research member at Agora Intelligence Lab (AgIL). Focused on computer vision, deep learning, and intelligent systems.
+Pham Minh Duc is an AI researcher with a Bachelor’s degree in Computer and Information Science from VNU University of Science. His research interests center on computer vision and deep learning, with a particular focus on developing and optimizing models for high accuracy and efficiency. He has published and contributed to ongoing research presented at international conferences. His current work aims to advance computer vision methods for real-world challenges, especially in healthcare and intelligent systems.

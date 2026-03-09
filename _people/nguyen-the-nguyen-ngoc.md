@@ -14,8 +14,8 @@ linkedin: null
 order: 3
 role_group: Interns
 scholar: null
-photo: /assets/images/people/../default_avatar.svg
-title: Nguyễn Thế Nguyên Ngọc
+photo: /assets/images/people/nguyen_the_nguyen_ngoc.jpg
+title: Nguyen The Nguyen Ngoc
 ---
 
 This is a placeholder profile for a new intern. Please update with the actual intern's information.

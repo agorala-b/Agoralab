@@ -16,7 +16,7 @@ job_title: Chair
 layout: person
 linkedin: https://www.linkedin.com/in/fiyud/
 order: 1
-photo: /member/nguyen_duc_quang_anh/1d99fd6b35eebbb0e2ff.jpg
+photo: /assets/images/people/nguyen_duc_quang_anh.jpeg
 role_group: Executive Board
 scholar: https://scholar.google.com/citations?user=mEouKaQAAAAJ&hl=en
 services:
@@ -50,7 +50,7 @@ work_experience:
   year: Oct 2023 - Jan 2024
 publications:
 - "[ResearchGate Profile](https://www.researchgate.net/profile/Quang-Anh-Nd)"
-title: Nguyễn Đức Quang Anh
+title: Nguyen Duc Quang Anh
 ---
 
 Quang-Anh N. D. is a Bachelor's degree in Applied Information Technology at the International School, Vietnam National University, Hanoi. His research interests include multidisciplinary applications research on AI and Data Science.

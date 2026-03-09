@@ -1,21 +1,28 @@
 ---
 awards: []
-department: Agora Intelligence Lab (AgIL)
+department: Accounting, Analysis and Auditing/ Business Law
 educations:
-- degree: Researcher
-  field: Artificial Intelligence
-  institution: Agora Intelligence Lab
-  year: 2025
-email: haiyen.ng@agil.org
-github: null
-job_title: UnderGraduate Student
+- degree: Bachelor
+  field: Accounting, Analysis and Auditing
+  institution: International School - Vietnam National University, Hanoi
+  year: 2022 - present
+- degree: Bachelor
+  field: Business Law
+  institution: University of Law - Vietnam National University, Hanoi
+  year: 2025 - present
+email: haiyen270904@gmail.com / 22070953@vnu.edu.vn
+github: https://github.com/nguyenhaiyenxselina
+job_title: UnderGrad Student
 layout: person
-linkedin: null
+linkedin: https://www.linkedin.com/in/h%E1%BA%A3i-y%E1%BA%BFn-270904h/
 order: 1
-photo: /assets/images/people/../default_avatar.svg
+photo: /assets/images/people/nguyen_hai_yen.jpg
+publications:
+- Tran Ha Thu, ND Quang-Anh, Hai Yen Nguyen, Thao Phuong Pham, Duong Le Tung Ba, Chi Tuong La, Anh Minh Hoang, Zhang Yuemei, Thi-Minh-Ngoc Luu, Ha Manh Hung. (2024). Explainable LSTM-Based Demand Forecasting for Multi-Channel Retail Supply Chain Performance Analysis. DataCo Global Multi-Channel Retail Dataset Study.
 role_group: Member
-scholar: null
-title: Nguyễn Hải Yến
+scholar: Hai Yen Nguyen
+work_experience: []
+title: Nguyen Hai Yen
 ---
 
-Research member at Agora Intelligence Lab (AgIL).
+I am currently an undergraduate student at Vietnam National University, Hanoi, pursuing dual Bachelor's degrees in Business Law and Accounting, Analysis and Auditing. My research interests focus on financial technology (FinTech), ESG practices, corporate integrity, and the application of data analytics in finance and auditing. I adopt an interdisciplinary approach that integrates law, accounting, finance, and data science to address issues related to corporate governance, transparency, and sustainable development.

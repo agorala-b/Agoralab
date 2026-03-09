@@ -1,21 +1,21 @@
 ---
 awards: []
-department: Agora Intelligence Lab (AgIL)
+department: Science in Artificial Intelligence
 educations:
-- degree: Researcher
-  field: Artificial Intelligence
-  institution: Agora Intelligence Lab
-  year: 2025
+- degree: Bachelor
+  field: Science in Artificial Intelligence
+  institution: Hanoi University of Engineering and Technology (UET)
+  year: 2023-2027
 email: toan.pham@agil.org
 github: null
 job_title: UnderGraduate Student
 layout: person
 linkedin: null
 order: 2
-photo: /assets/images/people/../default_avatar.svg
+photo: /assets/images/people/pham_toan.jpg
 role_group: Research Assistants
 scholar: null
-title: Phạm Sỹ Toàn
+title: Pham Sy Toan
 ---
 
 Research member at Agora Intelligence Lab (AgIL).

@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Add a click event listener
     searchBtn.addEventListener('click', (e) => {
         e.preventDefault(); // Prevent default link behavior
-        
+
         // Placeholder for future search functionality
         alert('Search functionality would be triggered here.');
     });

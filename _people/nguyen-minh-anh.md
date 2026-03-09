@@ -14,7 +14,7 @@ job_title: Co-chair
 layout: person
 linkedin: https://linkedin.com/in/minh-anh-nguy%E1%BB%85n-5ab992367/
 order: 1
-photo: /member/nguyen_minh_anh/612743918055909149.jpg
+photo: /assets/images/people/nguyen_minh_anh.jpeg
 role_group: Executive Board
 scholar: null
 work_experience:

@@ -14,8 +14,8 @@ linkedin: null
 order: 3
 role_group: Interns
 scholar: null
-photo: /assets/images/people/../default_avatar.svg
-title: Ứng Nhật Thành
+photo: /assets/images/people/ung_nhat_thanh.jpg
+title: Ung Nhat Thanh
 ---
 
 This is a placeholder profile for a new intern. Please update with the actual intern's information.
