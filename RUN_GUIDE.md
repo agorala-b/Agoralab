@@ -1,114 +1,110 @@
-# AgIL Website - Hướng Dẫn Sử Dụng & Deploy 🚀
+# AgIL Website - Hướng Dẫn Sử Dụng & Quản Trị 🚀
 
-Tài liệu này hướng dẫn chi tiết cách chạy trang web ở máy cá nhân (Local) để kiểm thử, cũng như cách cập nhật nội dung và tự động deploy lên GitHub Pages.
+Tài liệu này hướng dẫn cách vận hành, cập nhật nội dung và triển khai trang web **AgIL (Agora Intelligence Lab)** từ máy cá nhân lên GitHub.
 
 ---
 
 ## 1. Chạy Trang Web Ở Máy Cá Nhân (Local Development)
 
-Việc chạy trang web ở local giúp bạn xem trước các thay đổi (thêm người, thêm bài báo, đổi giao diện, v.v.) trước khi đưa lên mạng.
+Trước khi công khai thay đổi, bạn nên chạy thử ở máy local để kiểm tra giao diện.
 
-### 1.1 Yêu Cầu Cài Đặt Ban Đầu (Chỉ làm 1 lần)
-Bạn cần cài đặt Ruby và môi trường làm việc. Nếu chưa có, trên Ubuntu/Linux hãy chạy lệnh sau:
+### 1.1 Cài đặt môi trường (Chỉ làm một lần)
+Đảm bảo máy đã cài Ruby và Bundler. Trên Linux/Ubuntu:
 ```bash
 sudo apt update
 sudo apt install ruby-full build-essential zlib1g-dev
-```
-
-Sau khi cài Ruby, cần cài đặt `bundler` (công cụ quản lý thư viện của Ruby):
-```bash
 sudo gem install bundler
 ```
 
-> **🔥 LỖI THƯỜNG GẶP KHÔNG CÓ QUYỀN GHI (PermissionError):** 
-> Nếu bạn gặp lỗi *`Bundler::PermissionError`* hoặc lỗi không có quyền ghi vào `/var/lib/gems/`, cấu hình để Bundler cài đặt thư viện vào thẳng thư mục dự án hiện tại bằng lệnh:
-> ```bash
-> bundle config set --local path 'vendor/bundle'
-> ```
-
-### 1.2 Khởi Động Trang Web
-Mỗi khi muốn mở web ở máy để xem, bạn mở Terminal tại thư mục code (`/home/viet/Downloads/web` hoặc thư mục dự án) và chạy lệnh:
+Nếu gặp lỗi về quyền ghi (permission), cấu hình cài thư viện vào thư mục dự án:
 ```bash
-bundle install   # Lệnh này đảm bảo tải đầy đủ thư viện Jekyll thiết yếu
+bundle config set --local path 'vendor/bundle'
+```
+
+### 1.2 Khởi động server
+Mở Terminal tại thư mục dự án và chạy:
+```bash
+bundle install   # Cài đặt/cập nhật thư viện cần thiết
 bundle exec jekyll serve --livereload
 ```
-*(Nếu làm biếng gõ lệnh dài, bạn có thể chạy file helper tôi đã tạo sẵn: `sh scripts/build_help.sh` - Lưu ý: trong helper này cũng sẽ chạy lệnh `bundle install` tự động).*
+*(Hoặc dùng script hỗ trợ: `sh scripts/build_help.sh`)*
 
-### 1.3 Xem Trang Web
-Khi Terminal hiện dòng chữ `Server address: http://127.0.0.1:4000/`, hãy mở trình duyệt web và truy cập địa chỉ:
-**[http://localhost:4000/](http://localhost:4000/)**
-Tính năng `--livereload` giúp trình duyệt tự động tải lại trang mỗi khi bạn lưu file.
+Truy cập trang web tại: **[http://localhost:4000](http://localhost:4000)**
 
 ---
 
-## 2. Các Bước Cập Nhật Nội Dung Cơ Bản
+## 2. Hướng Dẫn Cập Nhật Nội Dung (Data-Driven)
 
-Hệ thống được thiết kế theo hướng **Data-Driven**. Bạn không cần sửa giao diện (HTML), chỉ cần sửa thư mục Data.
+Hệ thống được thiết kế để bạn chỉ cần cập nhật dữ liệu trong các file cấu hình mà không cần sửa code HTML phức tạp.
 
-### 2.1 Cập Nhật Bài Báo (Publications)
-Mở file `_data/publications.yml` và thêm vào danh sách theo mẫu.
+### 2.1 Thêm Tin Tức (News)
+Mở file `_data/news.yml`. Thêm tin mới lên **đầu file** để nó hiện ra đầu tiên:
 ```yaml
-- title: "Interpretable Landslide Risk Assessment via Machine Learning and Explainable AI"
-  authors: "Nguyen, Duc Quang-Anh and Vu, Ha Phuong and Le, Ba Tung Duong and Mai, Hanh Thi and Thanh, Hoa Do"
-  year: 2025
-  type: "conference" # hoặc "journal"
-  venue: "Proceedings of the International Student Science Forum"
-  thumbnail: "assets/images/publications/landslide.jpg"
-  paper_link: "https://example.com/paper/landslide-risk-2025"
+- title: "Tiêu đề tin tức..."
+  date: "YYYY-MM-DD"
+  content: "Nội dung chi tiết của bản tin..."
 ```
 
-### 2.2 Thêm Hoặc Sửa Thông Tin Thành Viên (People)
-Mọi thông tin thành viên đều được lưu trong thư mục `_people/`.
-Để thêm người mới, tạo một file Markdown (`.md`) mới trong thư mục này với nội dung theo mẫu:
+### 2.2 Thêm Bài Báo (Publications)
+Mở file `_data/publications.yml`. Thêm thông tin theo mẫu:
+```yaml
+- title: "Tên bài báo khoa học"
+  authors: "Tên các tác giả"
+  year: 2026
+  type: "journal" # hoặc "conference"
+  venue: "Tên tạp chí/hội thảo"
+  thumbnail: "assets/images/publications/ten_anh.jpg" # Ảnh minh họa
+  paper_link: "https://doi.org/..." # Link tải/xem bài báo
+```
+*Lưu ý: Ảnh thumbnail nên lưu vào thư mục `assets/images/publications/`.*
+
+### 2.3 Quản Lý Thành Viên (People)
+Mỗi thành viên có một file riêng trong thư mục `_people/`.
+Để thêm người mới, hãy tạo file `.md` (ví dụ: `nguyen_van_a.md`):
 ```markdown
 ---
 layout: person
-title: Lê Minh Việt
+title: Nguyễn Văn A
 job_title: Research Assistant
-role_group: Research Assistants      # Các nhóm cố định: Executive Board, Research Assistants, Interns, Alumni 
-order: 2                             # Thứ tự hiển thị 
-email: 24070480@vnu.edu.vn
-photo: /assets/images/people/le_minh_viet.jpg
-linkedin: https://www.linkedin.com/in/vi%E1%BB%87t-lee-821500329/
-github: https://github.com/Vlet0
-scholar: 
+role_group: Member # Nhóm: Executive Board, Member, Interns, Alumni 
+order: 1 # Thứ tự hiển thị trong nhóm
+photo: /assets/images/people/nguyen_van_a.jpg
+email: email@vnu.edu.vn
+linkedin: https://linkedin.com/in/...
+github: https://github.com/...
 ---
-
-Le Minh Viet was born in Hanoi, Vietnam, in 2006. He is currently pursuing a degree in Financial Technology...
-*(Phần giới thiệu chi tiết viết ở đây)*
+Viết tiểu sử hoặc giới thiệu ngắn về thành viên ở đây.
 ```
-Đừng quên lưu hình đại diện của họ vào thư mục `assets/images/people/`.
 
-### 2.3 Thêm Tin Tức Tức (Recent News & Activities)
-Mở file `_data/news.yml` và thêm những file đầu tiên:
+### 2.4 Thêm Dataset (Dữ liệu nghiên cứu)
+Mở file `_data/datasets.yml`. Thêm thông tin tập dữ liệu:
 ```yaml
-- title: "AgIL Welcomes New Interns"
-  date: "2026-01-20"
-  content: "We are thrilled to welcome a new cohort of research interns joining us for the spring semester."
+- name: "Tên tập dữ liệu"
+  description: "Mô tả ngắn gọn về dữ liệu"
+  domain: "Lĩnh vực (VD: NLP, Computer Vision)"
+  format: "Định dạng (VD: CSV, JSON)"
+  size: "Dung lượng (VD: 100 MB)"
+  license: "Giấy phép (VD: MIT, CC BY 4.0)"
+  download_link: "/assets/datasets/data.zip" # Để trống "" nếu hiện "Coming Soon"
 ```
-Trang chủ sẽ tự động hiển thị 10 bài báo mới nhất và chia trang (Pagination) ở các trang tiếp theo.
 
 ---
 
-## 3. Hoạt Động & Triển Khai Lên GitHub Pages (Deploy)
+## 3. Triển Khai Lên GitHub Pages (Deploy)
 
-Website của bạn đã được kết nối và cấu hình hoàn tất với kho lưu trữ GitHub tại:
-**[https://github.com/agorala-b/OurWeb](https://github.com/agorala-b/OurWeb)**
+Khi đã ưng ý với các thay đổi ở máy local, bạn dùng các lệnh sau để đẩy lên GitHub:
 
-Bạn không cần tự build và copy các file tĩnh lên mạng. GitHub Actions sẽ làm tự động giúp bạn.
+```bash
+# 1. Gom tất cả thay đổi
+git add .
 
-### Các Bước Thực Hiện Deploy:
-1. **Sửa code hoặc cập nhật Data ở máy local.**
-2. **Kiểm tra ở Local** bằng lệnh `sh scripts/build_help.sh` đảm bảo giao diện hiển thị đúng ý.
-3. **Commit & Push** các thay đổi đó lên nhánh chính để tự động public:
-   ```bash
-   git add -A
-   git commit -m "Cập nhật bài báo mới trên ResearchGate"
-   git push origin migration/github-pages-ui-modern  
-   ```
-   *(Lưu ý: Nếu bạn có thể sát nhập nhánh `migration/github-pages-ui-modern` này vào nhánh `main` (hoặc `master`) trên GitHub, thì về sau bạn chỉ cần push thay đổi lên `main` là GitHub Pages sẽ tự động Build trang web)*.
+# 2. Tạo ghi chú thay đổi
+git commit -m "Cấu trúc lại dữ liệu và cập nhật nội dung mới"
 
-### Quá Trình Build Trên GitHub Chạy Như Thế Nào?
-- Sau khi bạn push code lên GitHub, một hệ thống gọi là **GitHub Actions** (được định nghĩa trong file `.github/workflows/deploy.yml`) sẽ được kích hoạt ẩn.
-- Quá trình này tự build phiên bản Jekyll mới nhất khoảng vài phút, sau đó nó sẽ publish trang web vào nhánh `gh-pages` hoặc lên link chính thức của tổ chức.
-- Bạn có thể vào mục **Actions** trên Repository GitHub để theo dõi xem quá trình Deploy đã thành công hay xảy ra lỗi (dấu tích xanh ✅).
+# 3. Đẩy lên nhánh main (Lệnh này sẽ kích hoạt GitHub Actions tự build web)
+git push origin main
+```
+
+**Kiểm tra trạng thái:**
+Vào mục **Actions** trên repo GitHub để xem quá trình build. Khi thấy dấu tích xanh ✅, trang web sẽ được cập nhật tại:
+**[https://agorala-b.github.io/Agoralab/](https://agorala-b.github.io/Agoralab/)** (hoặc domain riêng của bạn).
