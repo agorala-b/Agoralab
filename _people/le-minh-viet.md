@@ -8,16 +8,13 @@ educations:
   year: 2024
 email: 24070480@vnu.edu.vn
 github: https://github.com/Vlet0
-job_title: Research Assistant
+job_title: UnderGraduate Student
 layout: person
 linkedin: https://www.linkedin.com/in/vi%E1%BB%87t-lee-821500329/
 order: 2
 photo: /assets/images/people/le_minh_viet.jpg
 role_group: Research Assistants
 scholar: null
-services:
-  conferences: []
-  journals: []
 title: Lê Minh Việt
 ---
 

@@ -1,24 +1,32 @@
 ---
-awards: []
-department: Agora Intelligence Lab (AgIL)
+awards:
+- Third Prize, Student Scientific Research, VNU-IS (2025)
+- Top 8, SOICT Hackathon (2024)
+department: International School, Vietnam National University, Hanoi
 educations:
-- degree: Researcher
-  field: Artificial Intelligence
-  institution: Agora Intelligence Lab
-  year: 2025
-email: minhanh.ng@agil.org
-github: null
-job_title: Co-Chair
+- degree: Bachelor
+  field: Applied Information Technology
+  institution: Vietnam National University – Hanoi (VNU-IS)
+  year: 2022–2026
+email: 22071104@vnu.edu.vn
+github: https://github.com/crybabii
+job_title: Co-chair
 layout: person
-linkedin: null
+linkedin: https://linkedin.com/in/minh-anh-nguy%E1%BB%85n-5ab992367/
 order: 1
-photo: /assets/images/people/../default_avatar.svg
+photo: /member/nguyen_minh_anh/612743918055909149.jpg
 role_group: Executive Board
 scholar: null
-services:
-  conferences: []
-  journals: []
-title: Nguyễn Minh Anh
+work_experience:
+- title: Researcher
+  institution: Computer Vision and Robotics & Cognitive Machine Intelligence of VNUIS
+  year: Oct 2024 - Present
+- title: Researcher
+  institution: Intelligent Control & Artificial Intelligence Laboratory - VNUIS
+  year: Jan 2023 - Sep 2024
+publications:
+- "[ResearchGate Profile](https://www.researchgate.net/profile/Minh-Anh-Nguyen-44?ev=hdr_xprf)"
+title: Nguyen Minh Anh
 ---
 
-Research member at Agora Intelligence Lab (AgIL). Interested in machine learning, AI applications, and data science.
+Nguyen Minh Anh is a last-year student majoring in Applied Information Technology at Vietnam National University – Hanoi, with strong research interests in Computer Vision, Deep Learning, and Multimodal Learning. My work focuses on lightweight and efficient deep learning models for real-world applications such as smart agriculture, medical imaging, affective computing, and intelligent navigation systems.

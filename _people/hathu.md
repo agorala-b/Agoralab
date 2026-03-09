@@ -1,7 +1,7 @@
 ---
 layout: person
-title: "Jane Doe"
-job_title: "Past Researcher"
+title: "Trần Hà Thu"
+job_title: Past Researcher
 role_group: "Alumni"
 order: 1
 department: "Agora Intelligence Lab (AgIL)"
@@ -11,4 +11,4 @@ linkedin:
 github: 
 scholar: 
 ---
-Jane was an essential part of the early research phases at AgIL.
+Tran Ha Thu was an essential part of the early research phases at AgIL.

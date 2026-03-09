@@ -8,16 +8,13 @@ educations:
   year: 2022 - present
 email: vhpwork1204@gmail.com
 github: null
-job_title: Member
+job_title: UnderGraduate Student
 layout: person
 linkedin: https://www.linkedin.com/in/ha-phuong-vu-17210a248/
 order: 1
 photo: /assets/images/people/vu_ha_phuong.jpg
 role_group: Member
 scholar: https://scholar.google.com/citations?hl=vi&authuser=1&user=IXFwFVsAAAAJ
-services:
-  conferences: []
-  journals: []
 title: Vu Ha Phuong
 ---
 

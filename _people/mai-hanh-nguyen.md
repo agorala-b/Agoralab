@@ -8,17 +8,13 @@ educations:
   year: 2028
 email: 24070437@vnu.edu.vn
 github: https://github.com/maiihanh
-job_title: Research Assistant
+job_title: UnderGraduate Student
 layout: person
 linkedin: https://www.linkedin.com/in/maii-hạnh-nguyễn-a5a8ba371/
 order: 2
 photo: /assets/images/people/nguyen_thi_mai_hanh.png
 role_group: Research Assistants
 scholar: null
-services:
-  conferences:
-  - IEEE Asia Meeting on Environment and Electrical Engineering (EEE-AM 2025)
-  journals: []
 title: Mai Hanh Nguyen
 ---
 

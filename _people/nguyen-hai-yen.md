@@ -8,16 +8,13 @@ educations:
   year: 2025
 email: haiyen.ng@agil.org
 github: null
-job_title: Member
+job_title: UnderGraduate Student
 layout: person
 linkedin: null
 order: 1
 photo: /assets/images/people/../default_avatar.svg
 role_group: Member
 scholar: null
-services:
-  conferences: []
-  journals: []
 title: Nguyễn Hải Yến
 ---
 

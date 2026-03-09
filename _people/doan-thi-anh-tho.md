@@ -23,21 +23,13 @@ educations:
   year: 2026 (Expected)
 email: thodta@vnuis.edu.vn
 github: null
-job_title: Undergraduate Student
+job_title: UnderGraduate Student
 layout: person
 linkedin: null
 order: 1
 photo: /assets/images/people/doan_thi_anh_tho.jpg
 role_group: Member
 scholar: null
-services:
-  activities:
-  - Member of the Executive Board of Youth Union, VNU International School
-  - Organizer and Coordinator for various university-level technology and business
-    events
-  - Logo and Brand Identity Designer for student organizations
-  conferences: []
-  journals: []
 title: Doan Thi Anh Tho
 ---
 

@@ -87,11 +87,54 @@ layout: default
                     <li style="margin-bottom: 1rem; padding-left: 1.5rem; position: relative;">
                         <span
                             style="position: absolute; left: 0; top: 8px; width: 8px; height: 8px; background: var(--agil-primary); border-radius: 50%;"></span>
-                        <strong>{{ edu.degree }}</strong> in {{ edu.field }}<br>
+                        <strong>{{ edu.degree }}</strong>{% if edu.field %} in {{ edu.field }}{% endif %}<br>
                         <span style="color: var(--agil-text-light);">{{ edu.institution }}, {{ edu.year }}</span>
                     </li>
                     {% endfor %}
                 </ul>
+            </div>
+            {% endif %}
+
+            {% if page.work_experience %}
+            <div style="margin-bottom: 2.5rem;">
+                <h2
+                    style="font-size: 1.5rem; color: var(--agil-primary); border-bottom: 2px solid var(--agil-border); padding-bottom: 0.5rem; margin-bottom: 1.5rem;">
+                    Work Experience</h2>
+                <ul style="list-style: none; padding: 0;">
+                    {% for work in page.work_experience %}
+                    <li style="margin-bottom: 1rem; padding-left: 1.5rem; position: relative;">
+                        <span
+                            style="position: absolute; left: 0; top: 8px; width: 8px; height: 8px; background: var(--agil-primary); border-radius: 50%;"></span>
+                        <strong>{{ work.title }}</strong>{% if work.company %} - {{ work.company }}{% elsif
+                        work.institution %} - {{ work.institution }}{% endif %}<br>
+                        <span style="color: var(--agil-text-light);">{% if work.description %}{{ work.description }} {%
+                            endif %}{{ work.year }}</span>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+            {% endif %}
+
+            {% if page.publications %}
+            <div style="margin-bottom: 2.5rem;">
+                <h2
+                    style="font-size: 1.5rem; color: var(--agil-primary); border-bottom: 2px solid var(--agil-border); padding-bottom: 0.5rem; margin-bottom: 1.5rem;">
+                    Publications</h2>
+                <div style="color: var(--agil-text);">
+                    {% if page.publications.first %}
+                    <ul style="list-style: none; padding: 0;">
+                        {% for pub in page.publications %}
+                        <li style="margin-bottom: 0.75rem; padding-left: 1.5rem; position: relative;">
+                            <span
+                                style="position: absolute; left: 0; top: 10px; width: 6px; height: 6px; background: var(--agil-primary-light); border-radius: 50%;"></span>
+                            {{ pub | markdownify | remove: '<p>' | remove: '</p>' }}
+                        </li>
+                        {% endfor %}
+                    </ul>
+                    {% else %}
+                    {{ page.publications | markdownify }}
+                    {% endif %}
+                </div>
             </div>
             {% endif %}
 

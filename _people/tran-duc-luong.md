@@ -8,16 +8,13 @@ educations:
   year: 2024
 email: 24071495@vnu.edu.vn
 github: https://github.com/luong006
-job_title: Research Assistant
+job_title: UnderGraduate Student
 layout: person
 linkedin: www.linkedin.com/in/lương-trần-5683133b4
 order: 2
 photo: /assets/images/people/tran_duc_luong.jpg
 role_group: Research Assistants
 scholar: null
-services:
-  conferences: []
-  journals: []
 title: Trần Đức Lương
 ---
 

@@ -10,17 +10,13 @@ educations:
   year: 2024-
 email: 24070368@vnu.edu.vn
 github: https://github.com/Shikitrglinh06
-job_title: Research Assistant
+job_title: UnderGraduate Student
 layout: person
 linkedin: https://www.linkedin.com/in/nguy%E1%BB%85n-thanh-tr%C6%B0%E1%BB%9Dng-linh-37145436b/
 order: 2
 photo: /assets/images/people/nguyen_thanh_truong_linh.jpg
 role_group: Research Assistants
 scholar: null
-services:
-  conferences:
-  - 2nd Asia Meeting on Environment and Electrical Engineering.
-  journals: []
 title: Nguyen Thanh Truong Linh
 ---
 

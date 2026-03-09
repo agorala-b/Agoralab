@@ -8,17 +8,13 @@ educations:
   year: 2024
 email: 24070376@vnu.edu.vn
 github: null
-job_title: Research Assistant
+job_title: UnderGraduate Student
 layout: person
 linkedin: null
 order: 2
 photo: /assets/images/people/do_thanh_hoa.jpg
-role_group: Research Assistants
+role_group: Interns
 scholar: null
-services:
-  conferences:
-  - International Student Science Forum 2025
-  journals: []
 title: Thanh Hoa Do
 ---
 

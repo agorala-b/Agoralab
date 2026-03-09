@@ -14,7 +14,7 @@ linkedin: null
 order: 3
 role_group: Interns
 scholar: null
-title: Nguyễn Thế Nguyên Ngọc
+title: Ứng Nhật Thành
 ---
 
 This is a placeholder profile for a new intern. Please update with the actual intern's information.

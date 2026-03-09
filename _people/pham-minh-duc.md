@@ -15,9 +15,6 @@ order: 1
 photo: /assets/images/people/../default_avatar.svg
 role_group: Executive Board
 scholar: null
-services:
-  conferences: []
-  journals: []
 title: Phạm Minh Đức
 ---
 

@@ -8,17 +8,14 @@ educations:
   year: 2025
 email: toan.pham@agil.org
 github: null
-job_title: Research Assistant
+job_title: UnderGraduate Student
 layout: person
 linkedin: null
 order: 2
 photo: /assets/images/people/../default_avatar.svg
 role_group: Research Assistants
 scholar: null
-services:
-  conferences: []
-  journals: []
-title: Phạm Toàn
+title: Phạm Sỹ Toàn
 ---
 
 Research member at Agora Intelligence Lab (AgIL).

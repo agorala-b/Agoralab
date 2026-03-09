@@ -1,26 +1,41 @@
-# Profile mới — Nguyễn Minh Anh (Co-Chair)
-# Tạo profile placeholder theo yêu cầu restructure hierarchy
-name: Nguyễn Minh Anh
-title: Co-Chair
-department: Agora Intelligence Lab (AgIL)
-email: minhanh.ng@agil.org
-photo: ../default_avatar.svg
-linkedin: 
-github: 
-scholar: 
+name: Nguyen Minh Anh
+title: UnderGrad Student 
+department: International School, Vietnam National University, Hanoi
+email: 22071104@vnu.edu.vn
+photo: manh.png
+linkedin: linkedin.com/in/minh-anh-nguy%E1%BB%85n-5ab992367/
+github: github.com/crybabii
+# scholar: link_here
 
-about: Research member at Agora Intelligence Lab (AgIL). Interested in machine learning, AI applications, and data science.
+about:   Nguyen Minh Anh is alast-year student majoring in Applied Information Technology at
+  Vietnam National University – Hanoi, with strong research interests in Computer Vision,
+  Deep Learning, and Multimodal Learning. My work focuses on lightweight and efficient
+  deep learning models for real-world applications such as smart agriculture, medical
+  imaging, affective computing, and intelligent navigation systems.
 
 educations:
-  - degree: Researcher
-    institution: Agora Intelligence Lab
-    year: 2025
-    field: Artificial Intelligence
+  - degree: Bachelor
+    institution: Vietnam National University – Hanoi (VNU-IS)
+    year: 2022–2026
+    field: Applied Information Technology
 
-publications: []
 
-awards: []
+publications: https://www.researchgate.net/profile/Minh-Anh-Nguyen-44?ev=hdr_xprf
 
-services:
-  conferences: []
-  journals: []
+awards: # Array
+  - Third Prize, Student Scientific Research, VNU-IS (2025)
+  - Top 8, SOICT Hackathon (2024)
+
+work:
+  - title: Researcher
+    institution: Computer Vision and Robotics & Cognitive Machine Intelligence of VNUIS
+    year: Oct 2024 - Present
+  - title: Researcher
+    institution: Intelligent Control \& Artificial Intelligence Laboratory - VNUIS
+    year: Jan 2023 - Sep 2024
+
+educations:
+  - degree: Bachelor
+    institution: Vietnam National University – Hanoi (VNU-IS)
+    year: 2022–2026
+    field: Applied Information Technology
