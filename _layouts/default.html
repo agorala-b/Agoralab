@@ -44,12 +44,21 @@
                     class="{% if page.url contains '/datasets' %}active{% endif %}">Dataset</a>
                 <a href="{{ '/pics.html' | relative_url }}"
                     class="{% if page.url contains '/pics' %}active{% endif %}">Pics</a>
-                <button id="theme-toggle" aria-label="Toggle Theme"
-                    style="background: none; border: none; cursor: pointer; color: var(--agil-text); font-size: 1.25rem; display: flex; align-items: center; justify-content: center; padding: 0.5rem;">
-                    <span class="theme-icon-light" style="display: none;">☀️</span>
-                    <span class="theme-icon-dark">🌙</span>
-                </button>
             </div>
+
+            <!-- Theme Toggle Switch -->
+            <div class="theme-switch-wrapper">
+                <label class="theme-switch" for="checkbox">
+                    <input type="checkbox" id="checkbox" />
+                    <div class="slider"></div>
+                </label>
+                <span id="theme-icon-label"
+                    style="margin-left: 10px; font-size: 1.1rem; vertical-align: middle;">🌙</span>
+            </div>
+
+            <button class="agil-hamburger" aria-label="Toggle menu" id="mobile-menu-btn">
+                <span></span><span></span><span></span>
+            </button>
         </div>
     </nav>
 
@@ -77,28 +86,32 @@
     <!-- JS -->
     <script>
         document.addEventListener('DOMContentLoaded', () => {
-            const themeToggle = document.getElementById('theme-toggle');
-            const lightIcon = themeToggle.querySelector('.theme-icon-light');
-            const darkIcon = themeToggle.querySelector('.theme-icon-dark');
+            const themeCheckbox = document.getElementById('checkbox');
+            const themeIconLabel = document.getElementById('theme-icon-label');
+            const currentTheme = localStorage.getItem('theme') || 'light';
 
-            function updateIcons(theme) {
-                if (theme === 'dark') {
-                    lightIcon.style.display = 'block';
-                    darkIcon.style.display = 'none';
-                } else {
-                    lightIcon.style.display = 'none';
-                    darkIcon.style.display = 'block';
-                }
+            // Set initial state
+            if (currentTheme === 'dark') {
+                themeCheckbox.checked = true;
+                themeIconLabel.textContent = '☀️';
+            } else {
+                themeCheckbox.checked = false;
+                themeIconLabel.textContent = '🌙';
             }
 
-            const currentTheme = localStorage.getItem('theme') || 'light';
-            updateIcons(currentTheme);
+            // Sync with document element
+            document.documentElement.setAttribute('data-theme', currentTheme);
 
-            themeToggle.addEventListener('click', () => {
-                const theme = document.documentElement.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
-                document.documentElement.setAttribute('data-theme', theme);
-                localStorage.setItem('theme', theme);
-                updateIcons(theme);
+            themeCheckbox.addEventListener('change', () => {
+                if (themeCheckbox.checked) {
+                    document.documentElement.setAttribute('data-theme', 'dark');
+                    localStorage.setItem('theme', 'dark');
+                    themeIconLabel.textContent = '☀️';
+                } else {
+                    document.documentElement.setAttribute('data-theme', 'light');
+                    localStorage.setItem('theme', 'light');
+                    themeIconLabel.textContent = '🌙';
+                }
             });
         });
     </script>
