@@ -34,8 +34,16 @@ layout: default
             <div
                 style="width: 100%; height: 160px; overflow: hidden; background: var(--agil-muted); position: relative;">
                 <!-- Type Badge -->
+                {% assign badge_color = "var(--agil-primary)" %}
+                {% if pub.type == "journal" %}
+                    {% assign badge_color = "#D4AF37" %}
+                {% elsif pub.type == "conference" %}
+                    {% assign badge_color = "#E53935" %}
+                {% elsif pub.type == "chapter" %}
+                    {% assign badge_color = "#1E88E5" %}
+                {% endif %}
                 <span
-                    style="position: absolute; top: 1rem; right: 1rem; background: var(--agil-primary); color: white; padding: 4px 12px; border-radius: 20px; font-size: 0.75rem; font-weight: 600; z-index: 10; box-shadow: var(--agil-shadow);">{{
+                    style="position: absolute; top: 1rem; right: 1rem; background: {{ badge_color }}; color: white; padding: 4px 12px; border-radius: 20px; font-size: 0.75rem; font-weight: 600; z-index: 10; box-shadow: var(--agil-shadow);">{{
                     type_label }}</span>
                 <img src="{{ pub.thumbnail | relative_url }}" alt="{{ pub.title }}"
                     onerror="this.src='{{ '/assets/images/logo.png' | relative_url }}';"
