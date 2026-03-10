@@ -4,7 +4,7 @@ awards:
 - Top 8, SOICT Hackathon 2024
 - Third Prize, VNU Student Scientific Research Competition 2025
 - First Prize, Ideathon Edtech HUST 2025
-department: Digital Twin Research Centre
+department: London Digital Twin Research Centre
 educations:
 - degree: Bachelor
   field: Applied Information Technology
@@ -50,7 +50,7 @@ work_experience:
   year: Oct 2023 - Jan 2024
 publications:
 - "[ResearchGate Profile](https://www.researchgate.net/profile/Quang-Anh-Nd)"
-title: Nguyen Duc Quang Anh
+title: Quang-Anh N. D.
 ---
 
 Quang-Anh N. D. is a Bachelor's degree in Applied Information Technology at the International School, Vietnam National University, Hanoi. His research interests include multidisciplinary applications research on AI and Data Science.
