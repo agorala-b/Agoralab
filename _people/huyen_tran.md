@@ -7,7 +7,7 @@ awards:
 - Certificate of Merit “Excellent Achievements in Youth Union Activities and Student Movements, Academic Year 2024-2025”
 - Certificate of Merit “Outstanding Contributions to the 2025 of Green Summer Volunteer Campaign”
 - Certificate of Merit “Excellent Performance in the 2025 of Exam Season Support Volunteer Campaign”
-department: International school, Vietnam National University
+department: International Business
 educations:
 - degree: Bachelor
   field: International Business

@@ -1,6 +1,6 @@
 ---
 awards: []
-department: ""
+department: Financial Technology and Digital Business
 educations:
 - degree: Bachelor
   field: Financial Technology and Digital Business
