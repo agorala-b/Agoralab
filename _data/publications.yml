@@ -5,7 +5,7 @@
     "year": 2026,
     "type": "journal",
     "venue": "IEEE Geoscience and Remote Sensing Letters",
-    "thumbnail": "assets/images/Publication/T1.png",
+    "thumbnail": "assets/images/Publication/colu.jpg",
     "paper_link": "https://www.researchgate.net/publication/398846546_Colubrid-Net_A_Unified_Cross-Modal_Framework_for_Hydrological_Forecasting_in_An_Khe_Reservoir_Vietnam"
   },
   {
@@ -95,7 +95,7 @@
     "year": 2025,
     "type": "conference",
     "venue": "The 14th International Conference on Computational Data and Social Networks (CANS 2025)",
-    "thumbnail": "assets/images/Publication/rehabilitation_gcn.png",
+    "thumbnail": "assets/images/Publication/o3d.jpg",
     "paper_link": "https://www.researchgate.net/publication/396848858_O3D-Net_A_Lightweight_Neural_ODE-Based_Architecture_for_Efficient_Skeleton-Based_Human_Action_Recognition?_tp=eyJjb250ZXh0Ijp7ImZpcnN0UGFnZSI6InByb2ZpbGUiLCJwYWdlIjoicHJvZmlsZSJ9fQ"
   },
   {
@@ -158,7 +158,7 @@
     "year": 2025,
     "type": "conference",
     "venue": "The 24th International Symposium on Communications and Information Technologies",
-    "thumbnail": "assets/images/Publication/arbornet.jpg",
+    "thumbnail": "assets/images/Publication/a.jpg",
     "paper_link": "https://www.researchgate.net/publication/395194625_ArborNet_Featherweight_Representation_Learning_for_Real-Time_Cashew_Nut_Quality_Classification"
   },
   {
@@ -167,7 +167,7 @@
     "year": 2025,
     "type": "conference",
     "venue": "2025 INTERNATIONAL CONFERENCE ON ADVANCED TECHNOLOGIES FOR COMMUNICATIONS",
-    "thumbnail": "assets/images/Publication/egg_inspection_v5.jpg",
+    "thumbnail": "assets/images/Publication/egg.jpg",
     "paper_link": "https://www.researchgate.net/publication/394858575_Real-Time_Egg_Inspection_with_YOLOv5-Seg_From_Crack_Detection_to_Mobile_Application"
   },
   {

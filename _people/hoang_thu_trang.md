@@ -1,7 +1,7 @@
 ---
 awards:
 - TOP 30 EXCELLENT TEAMS IN THE 2023 CIRCULAR ECONOMY HACKATHON
-department: International School, Vietnam National University
+department: Marketing/ Dual- Management
 educations:
 - degree: Bachelor
   field: Marketing/ Dual- Management

@@ -1,7 +1,7 @@
 ---
 awards:
 - Third Prize, HAUI NextGen Entrepreneurship Challenge (2025)
-department: International School, Vietnam National University
+department: Management Information Systems
 educations:
 - degree: Bachelor
   field: Management Information Systems

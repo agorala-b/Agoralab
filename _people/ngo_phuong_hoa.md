@@ -18,7 +18,7 @@ order: 1
 photo: /assets/images/people/ngo_phuong_hoa.jpg
 publications:
 - Edge-Optimized YOLOv5-Seg with PAGCP Pruning for Automated Egg Quality Assessment
-role_group: Researcher Assistant
+role_group: Interns
 scholar: null
 work_experience: []
 title: Ngo Phuong Hoa
