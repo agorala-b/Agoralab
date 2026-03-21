@@ -178,5 +178,14 @@
     "venue": "2nd Asia Meeting on Environment and Electrical Engineering",
     "thumbnail": "assets/images/Publication/traffic_police.jpg",
     "paper_link": "https://www.researchgate.net/publication/395991666_Spatial-Temporal_Dynamics_Skeletal_Graph-Based_Human_Action_Recognition_for_Vietnamese_Traffic_Police_Gestures"
+  },
+  {
+    "title": "A Hybrid Model of SARIMA and GRU in Water Level Forecasting: Case Study in Ankhe Reservoir, Vietnam",
+    "authors": "Hoang Thi Minh Chau, Tran Thi Ngan, Nguyen Duc Quang-Anh, Pham Minh Duc, Nguyen Long Giang and Nguyen Nhu Son",
+    "year": 2026,
+    "type": "journal",
+    "venue": "IEICE Transactions on Information and Systems",
+    "thumbnail": "assets/images/Publication/2026.png",
+    "paper_link": "https://www.researchgate.net/publication/401872344_A_Hybrid_Model_of_SARIMA_and_GRU_in_Water_Level_Forecasting_Case_Study_in_Ankhe_Reservoir_Vietnam"
   }
 ]
