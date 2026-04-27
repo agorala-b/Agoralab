@@ -33,7 +33,7 @@
     "type": "conference",
     "venue": "2024 9th International Conference on Integrated Circuits, Design, and System (ICDV)",
     "thumbnail": "assets/images/Publication/traffic.png",
-    "paper_link": "https://www.researchgate.net/publication/382622485_Optimizing_Traffic_Light_Control_using_YOLOv8_for_Real-Time_Vehicle_Detection_and_Traffic_Density"
+    "paper_link": "http://doi.org/10.1109/icdv61346.2024.10616901"
   },
   {
     "title": "Lychee Instance Segmentation at Different Growth Stages using YOLOv8-seg Model",
