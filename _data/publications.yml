@@ -6,7 +6,7 @@
     "type": "journal",
     "venue": "IEEE Geoscience and Remote Sensing Letters",
     "thumbnail": "assets/images/Publication/colu.jpg",
-    "paper_link": "https://www.researchgate.net/publication/398846546_Colubrid-Net_A_Unified_Cross-Modal_Framework_for_Hydrological_Forecasting_in_An_Khe_Reservoir_Vietnam"
+    "paper_link": "http://doi.org/10.1109/LGRS.2025.3645672"
   },
   {
     "title": "T2-Nav: Algebraic-Topology-Aware Temporal Graph Memory and Loop Detection for Zero-Shot Visual Navigation",
@@ -15,7 +15,7 @@
     "type": "conference",
     "venue": "IEEE International Conference on Robotics and Automation (ICRA)",
     "thumbnail": "assets/images/Publication/T2.png",
-    "paper_link": "https://www.researchgate.net/publication/401649664_T2-Nav_Algebraic-Topology-Aware_Temporal_Graph_Memory_and_Loop_Detection_for_Zero-Shot_Visual_Navigation"
+    "paper_link": "http://doi.org/10.48550/arXiv.2603.06918"
   },
   {
     "title": "Efficient Multi-Scale Attention Based on Mobilenetv4 Followed OmniSPPF and ODGC2f for Small-Scale Egg Identification",
@@ -24,7 +24,7 @@
     "type": "chapter",
     "venue": "Modelling, Computation and Optimization in Information Systems (MCO 2025)",
     "thumbnail": "assets/images/Publication/egg_id.jpg",
-    "paper_link": "https://www.researchgate.net/publication/390321011_Efficient_Multi-Scale_Attention_Based_On_Mobilenetv4_Followed_OmniSPPF_And_ODGC2f_For_Small-Scale_Egg_Identification"
+    "paper_link": "http://doi.org/10.1007/978-3-032-08384-5_22"
   },
   {
     "title": "Optimizing Traffic Light Control using YOLOv8 for Real-Time Vehicle Detection and Traffic Density",
@@ -42,7 +42,7 @@
     "type": "conference",
     "venue": "2024 9th International Conference on Integrated Circuits, Design, and System (ICDV)",
     "thumbnail": "assets/images/Publication/lychee.png",
-    "paper_link": "https://www.researchgate.net/publication/382622383_Lychee_Instance_Segmentation_at_Different_Growth_Stages_Using_YOLOv8-seg_Model"
+    "paper_link": "http://doi.org/10.1109/icdv61346.2024.10617329"
   },
   {
     "title": "Emotional Vietnamese speech-based depression diagnosis using dynamic attention mechanism",
@@ -51,7 +51,7 @@
     "type": "chapter",
     "venue": "Applied Mathematics and Computer Science (Springer)",
     "thumbnail": "assets/images/Publication/Emo.png",
-    "paper_link": "https://www.researchgate.net/publication/394968612_Emotional_Vietnamese_Speech-Based_Depression_Diagnosis_Using_Dynamic_Attention_Mechanism"
+    "paper_link": "http://doi.org/10.1007/978-3-032-00267-9_23"
   },
   {
     "title": "VNEMOS: Vietnamese speech emotion inference using deep neural networks",
@@ -60,7 +60,7 @@
     "type": "conference",
     "venue": "2024 9th International Conference on Integrated Circuits, Design, and System (ICDV)",
     "thumbnail": "assets/images/Publication/ven.png",
-    "paper_link": "https://www.researchgate.net/publication/382622286_VNEMOS_Vietnamese_Speech_Emotion_Inference_Using_Deep_Neural_Networks"
+    "paper_link": "http://doi.org/10.1109/icdv61346.2024.10616411"
   },
   {
     "title": "Lightweight CFE-YOLOv8s-Seg model for tomato ripeness instance segmentation",
@@ -69,7 +69,7 @@
     "type": "chapter",
     "venue": "Applied Mathematics and Computer Science (Springer)",
     "thumbnail": "assets/images/Publication/Tomato.png",
-    "paper_link": "https://www.researchgate.net/publication/385080706_Lightweight_CFE-YOLOv8s-Seg_Model_for_Tomato_Ripeness_Instance_Segmentation"
+    "paper_link": "http://doi.org/10.1007/978-3-032-08384-5_22"
   },
   {
     "title": "Enhancing Physical Rehabilitation Evaluation with Temporal Graph Convolution Networks",
@@ -78,7 +78,7 @@
     "type": "chapter",
     "venue": "Intelligent Systems and Networks (Springer)",
     "thumbnail": "assets/images/Publication/re.png",
-    "paper_link": "https://www.researchgate.net/publication/392896161_Enhancing_Physical_Rehabilitation_Evaluation_with_Temporal_Graph_Convolution_Networks"
+    "paper_link": "http://doi.org/10.1007/978-981-95-1746-6_64"
   },
   {
     "title": "MoodFlow: Cross-Modal Music Recommendation for Short-Form Videos via Neural ODEs with Mood-Aligned Music Recommendations",
@@ -87,7 +87,7 @@
     "type": "conference",
     "venue": "The 4th International Conference on Advances in Information and Communication Technology",
     "thumbnail": "assets/images/Publication/moodflow.png",
-    "paper_link": "https://www.researchgate.net/publication/394726709_MoodFlow_Cross-Modal_Music_Recommendation_for_Short-Form_Videos_via_Neural_ODEs_with_Mood-Aligned_Music_Recommendations"
+    "paper_link": "http://doi.org/10.1007/978-3-032-18159-6_25"
   },
   {
     "title": "O3D-Net: A Lightweight Neural ODE-Based Architecture for Efficient Skeleton-Based Human Action Recognition",
@@ -150,7 +150,7 @@
     "type": "conference",
     "venue": "13th International Conference on Emerging Challenges (ICECH)",
     "thumbnail": "assets/images/Publication/demand_forecasting.jpg",
-    "paper_link": "https://www.researchgate.net/publication/396646886_Explainable_LSTM-Based_Demand_Forecasting_for_Multi-Channel_Retail_Supply_Chain_Performance_Analysis?_tp=eyJjb250ZXh0Ijp7ImZpcnN0UGFnZSI6InByb2ZpbGUiLCJwYWdlIjoicHJvZmlsZSJ9fQ"
+    "paper_link": "http://doi.org/10.2991/978-94-6239-622-7_33"
   },
   {
     "title": "ArborNet: Featherweight Representation Learning for Real-Time Cashew Nut Quality Classification",
@@ -159,7 +159,7 @@
     "type": "conference",
     "venue": "The 24th International Symposium on Communications and Information Technologies",
     "thumbnail": "assets/images/Publication/a.jpg",
-    "paper_link": "https://www.researchgate.net/publication/395194625_ArborNet_Featherweight_Representation_Learning_for_Real-Time_Cashew_Nut_Quality_Classification"
+    "paper_link": "http://doi.org/10.1109/ISCIT67082.2025.11231447"
   },
   {
     "title": "Real-Time Egg Inspection with YOLOv5-Seg: From Crack Detection to Mobile Application",
@@ -168,7 +168,7 @@
     "type": "conference",
     "venue": "2025 INTERNATIONAL CONFERENCE ON ADVANCED TECHNOLOGIES FOR COMMUNICATIONS",
     "thumbnail": "assets/images/Publication/egg.jpg",
-    "paper_link": "https://www.researchgate.net/publication/394858575_Real-Time_Egg_Inspection_with_YOLOv5-Seg_From_Crack_Detection_to_Mobile_Application"
+    "paper_link": "http://doi.org/10.1109/ATC67618.2025.11268727"
   },
   {
     "title": "Spatial-Temporal Dynamics Skeletal Graph-Based Human Action Recognition for Vietnamese Traffic Police Gestures",
@@ -177,7 +177,7 @@
     "type": "conference",
     "venue": "2nd Asia Meeting on Environment and Electrical Engineering",
     "thumbnail": "assets/images/Publication/traffic_police.jpg",
-    "paper_link": "https://www.researchgate.net/publication/395991666_Spatial-Temporal_Dynamics_Skeletal_Graph-Based_Human_Action_Recognition_for_Vietnamese_Traffic_Police_Gestures"
+    "paper_link": "http://doi.org/10.1109/EEE-AM66675.2025.11473851"
   },
   {
     "title": "A Hybrid Model of SARIMA and GRU in Water Level Forecasting: Case Study in Ankhe Reservoir, Vietnam",
@@ -186,7 +186,7 @@
     "type": "journal",
     "venue": "IEICE Transactions on Information and Systems",
     "thumbnail": "assets/images/Publication/2026.png",
-    "paper_link": "https://www.researchgate.net/publication/401872344_A_Hybrid_Model_of_SARIMA_and_GRU_in_Water_Level_Forecasting_Case_Study_in_Ankhe_Reservoir_Vietnam"
+    "paper_link": "http://doi.org/10.1587/10.1587/transinf.2025EDP7174"
   },
   {
     "title": "A Credit Risk Digital Twin Framework with Explainability-Guided Feature Engineering and Counterfactual Simulation",
@@ -195,6 +195,6 @@
     "type": "Chapter",
     "venue": "The 39th International Conference on Industrial, Engineering & Other Applications of Applied Intelligent Systems",
     "thumbnail": "assets/images/Publication/chapter.png",
-    "paper_link": "https://www.researchgate.net/publication/401874322_A_Credit_Risk_Digital_Twin_Framework_with_Explainability-Guided_Feature_Engineering_and_Counterfactual_Simulation"
+    "paper_link": "xxx"
   }
 ]
