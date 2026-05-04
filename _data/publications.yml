@@ -211,7 +211,7 @@
     "authors": "Quang-Anh N.D., Minh-Duc Pham, Thai Kim Dinh",
     "year": 2026,
     "type": "conference",
-    "venue": "International Conference on Machine Learning (ICML)",
+    "venue": "International Journal of Speech Technology",
     "thumbnail": "assets/images/Publication/Speechbase.png",
     "paper_link": "https://arxiv.org/abs/2412.09829"
   },
@@ -220,12 +220,12 @@
     "authors": "Quang-Anh Nguyen-Duc and Kok-Seng Wong",
     "year": 2026,
     "type": "conference",
-    "venue": "International Conference on Machine Learning (ICML) 2026",
+    "venue": "International Conference on Machine Learning (ICML)",
     "thumbnail": "assets/images/Publication/Statespace.png",
     "paper_link": ""
   },
       {
-    "title": "Learning Non-Stationary Hydrological Dynamics from Satellite Imagery for Water qLevel Forecasting",
+    "title": "Learning Non-Stationary Hydrological Dynamics from Satellite Imagery for Water Level Forecasting",
     "authors": "Toan Sy Pham, Cong Thanh Pham, Quang-Anh N. D., Hoa Phuong Ngo, Minh-Anh Nguyen, Quynh N. T., Hieu Tran Trung, Thi Ngan Tran",
     "year": 2026,
     "type": "Chapter",
