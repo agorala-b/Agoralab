@@ -23,14 +23,14 @@ educations:
   year: 2026 (Expected)
 email: thodta@vnuis.edu.vn
 github: null
-job_title: UnderGraduate Student
+job_title: Ex-Member
 layout: person
 linkedin: null
 order: 1
 photo: /assets/images/people/doan_thi_anh_tho.jpg
 publications:
 - Edge-Optimized YOLOv5-Seg with PAGCP Pruning for Automated Egg Quality Assessment
-role_group: Member
+role_group: Alumni
 scholar: null
 title: Doan Thi Anh Tho
 ---

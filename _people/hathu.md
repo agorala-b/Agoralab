@@ -1,7 +1,7 @@
 ---
 layout: person
 title: "Tran Ha Thu"
-job_title: Past Researcher
+job_title: Ex-Member
 role_group: "Alumni"
 order: 1
 department: "Agora Intelligence Lab (AgIL)"

@@ -196,5 +196,50 @@
     "venue": "The 39th International Conference on Industrial, Engineering & Other Applications of Applied Intelligent Systems",
     "thumbnail": "assets/images/Publication/chapter.png",
     "paper_link": "xxx"
+  },
+  {
+    "title": "EmoFedProto: Privacy-Preserving Vietnamese Speech Emotion Recognition via Prototype-Based Federated Learning",
+    "authors": "Quang-Anh Nguyen-Duc and Duc Minh Pham and Thai Dinh Kim and Thao Phuong Pham and Nguyen, Minh-Anh and Xuan-Hai Le and Van-Ninh Nguyen",
+    "year": 2026,
+    "type": "journal",
+    "venue": "EAI Endorsed Transactions on AI and Robotics",
+    "thumbnail": "assets/images/Publication/emofedproto.png",
+    "paper_link": "https://doi.org/10.4108/airo.11595"
+  },
+    {
+    "title": "Speech-based Multimodel Pipeline for Vietnamese Services Quality Assessment",
+    "authors": "Quang-Anh N.D., Minh-Duc Pham, Thai Kim Dinh",
+    "year": 2026,
+    "type": "conference",
+    "venue": "International Conference on Machine Learning (ICML)",
+    "thumbnail": "assets/images/Publication/Speechbase.png",
+    "paper_link": "https://arxiv.org/abs/2412.09829"
+  },
+    {
+    "title": "Interleaved Selective State Space Models for Efficient WiFi Based 3D Multi Person Pose Estimation",
+    "authors": "Quang-Anh Nguyen-Duc and Kok-Seng Wong",
+    "year": 2026,
+    "type": "conference",
+    "venue": "International Conference on Machine Learning (ICML) 2026",
+    "thumbnail": "assets/images/Publication/Statespace.png",
+    "paper_link": ""
+  },
+      {
+    "title": "Learning Non-Stationary Hydrological Dynamics from Satellite Imagery for Water qLevel Forecasting",
+    "authors": "Toan Sy Pham, Cong Thanh Pham, Quang-Anh N. D., Hoa Phuong Ngo, Minh-Anh Nguyen, Quynh N. T., Hieu Tran Trung, Thi Ngan Tran",
+    "year": 2026,
+    "type": "Chapter",
+    "venue": "The Conference on Information Technology and its Applications (CITA) 2026",
+    "thumbnail": "assets/images/Publication/NonStat.png",
+    "paper_link": ""
+  },
+      {
+    "title": "When Structure Meets Semantics: A Hybrid Approach to Dynamic Knowledge Graph Completion in Finance",
+    "authors": "Viet Minh Le, Quang-Anh N. D., Hung Manh Ha, Thu-Trang Nguyen, Phuong-Anh Nguyen, Hai Yen Nguyen, Ha Thu Tran, Van Anh Pham Thi, Thao Phuong Pham, Anh Tho Doan Thi",
+    "year": 2026,
+    "type": "Chapter",
+    "venue": "The Conference on Information Technology and its Applications (CITA) 2026",
+    "thumbnail": "assets/images/Publication/Struct.png",
+    "paper_link": ""
   }
 ]

@@ -1,4 +1,4 @@
-# AgIL Website - Hướng Dẫn Sử Dụng & Quản Trị 🚀
+# AgIL Website - Hướng Dẫn Sử Dụng & Quản Trị 
 
 Tài liệu này hướng dẫn cách vận hành, cập nhật nội dung và triển khai trang web **AgIL (Agora Intelligence Lab)** từ máy cá nhân lên GitHub.
 

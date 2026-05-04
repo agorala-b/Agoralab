@@ -13,7 +13,7 @@ job_title: UnderGraduate Student
 layout: person
 linkedin: https://www.linkedin.com/in/detinatran/
 order: 1
-photo: /assets/images/people/anh_duong.jpg
+photo: /assets/images/people/anh_duong.jpeg
 publications:
 - Tran Anh Duong. (2025). Gold Price Forecasting Using Time-Series Models. Proceedings of the International Conference on Advances in Information and Communication Technology (ICTA).
 role_group: Research Assistants
