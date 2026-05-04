@@ -4,7 +4,7 @@ title: "Tran Ha Thu"
 job_title: Ex-Member
 role_group: "Alumni"
 order: 1
-department: "Agora Intelligence Lab (AgIL)"
+department: "Business and Financial"
 email: "alumni@example.com"
 photo: "/assets/images/people/ha_thu.jpeg"
 linkedin: 
