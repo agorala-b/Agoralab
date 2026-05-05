@@ -39,6 +39,79 @@ layout: default
     </div>
 </section>
 
+<!-- Our Partner Infinite Marquee -->
+<style>
+    .agil-marquee-container {
+        padding: 4rem 0;
+        background: var(--agil-bg);
+        overflow: hidden;
+    }
+    .agil-marquee-wrapper {
+        overflow: hidden;
+        position: relative;
+        width: 100%;
+        padding: 1rem 0;
+    }
+    .agil-marquee-wrapper::before, .agil-marquee-wrapper::after {
+        content: "";
+        position: absolute;
+        top: 0; width: 150px; height: 100%;
+        z-index: 10; pointer-events: none;
+    }
+    .agil-marquee-wrapper::before {
+        left: 0; background: linear-gradient(to right, var(--agil-bg) 0%, rgba(255,255,255,0) 100%);
+    }
+    .agil-marquee-wrapper::after {
+        right: 0; background: linear-gradient(to left, var(--agil-bg) 0%, rgba(255,255,255,0) 100%);
+    }
+    [data-theme="dark"] .agil-marquee-wrapper::before {
+        background: linear-gradient(to right, #0f172a 0%, rgba(15,23,42,0) 100%);
+    }
+    [data-theme="dark"] .agil-marquee-wrapper::after {
+        background: linear-gradient(to left, #0f172a 0%, rgba(15,23,42,0) 100%);
+    }
+    .agil-marquee-track {
+        display: inline-flex !important;
+        flex-direction: row !important;
+        flex-wrap: nowrap !important;
+        width: max-content !important;
+        animation: agil-marquee-scroll 40s linear infinite;
+        will-change: transform;
+    }
+    .agil-marquee-slide {
+        display: flex !important;
+        align-items: center; justify-content: center;
+        width: 280px; flex-shrink: 0;
+        padding: 0 40px;
+    }
+    .agil-marquee-slide img {
+        height: 60px; width: auto; max-width: 200px;
+        object-fit: contain; filter: grayscale(1); opacity: 0.6; transition: 0.3s;
+    }
+    .agil-marquee-slide:hover img {
+        filter: grayscale(0); opacity: 1; transform: scale(1.1);
+    }
+    @keyframes agil-marquee-scroll {
+        from { transform: translateX(0); }
+        to { transform: translateX(-50%); }
+    }
+</style>
+
+<section class="agil-marquee-container">
+    <h2 class="agil-section-title" style="margin-bottom: 2rem;">Our Partners</h2>
+    <div class="agil-marquee-wrapper">
+        <div class="agil-marquee-track">
+            {% for i in (1..8) %}
+                {% for partner in site.data.partners %}
+                <div class="agil-marquee-slide">
+                    <img src="{{ partner.logo | relative_url }}" alt="{{ partner.name }}">
+                </div>
+                {% endfor %}
+            {% endfor %}
+        </div>
+    </div>
+</section>
+
 <!-- Part 3: Slide (Simple JS Carousel client-side only) -->
 <section class="agil-section" style="background-color: var(--agil-muted); max-width: 100%; padding: 3rem 1.5rem;"
     id="gallery">
