@@ -53,18 +53,19 @@ layout: default
         padding: 1rem 0;
     }
     .agil-marquee-track {
-        display: inline-flex !important;
+        display: flex !important;
         flex-direction: row !important;
-        flex-wrap: nowrap !important;
-        width: max-content !important;
-        animation: agil-marquee-scroll 40s linear infinite;
+        flex-wrap: wrap !important; /* Cho phép xuống hàng nếu quá nhiều khi ở trạng thái static */
+        justify-content: center !important; /* Căn giữa khi static */
+        width: 100% !important;
+        /* animation: agil-marquee-scroll 40s linear infinite; */ /* Xoá comment dòng này để bật hiệu ứng chạy loop */
         will-change: transform;
     }
     .agil-marquee-slide {
         display: flex !important;
         align-items: center; justify-content: center;
         width: 200px; flex-shrink: 0;
-        padding: 0 10px;
+        padding: 10px 20px;
     }
     .agil-marquee-slide img {
         height: 60px; width: auto; max-width: 180px;
@@ -83,7 +84,7 @@ layout: default
     <h2 class="agil-section-title" style="margin-bottom: 2rem;">Our Partners</h2>
     <div class="agil-marquee-wrapper">
         <div class="agil-marquee-track">
-            {% for i in (1..8) %}
+            {% for i in (1..1) %} <!-- Đổi số 1 thành 8 nếu muốn bật hiệu ứng chạy loop (sau khi đã mở comment phần animation ở trên) -->
                 {% for partner in site.data.partners %}
                 <div class="agil-marquee-slide">
                     <img src="{{ partner.logo | relative_url }}" alt="{{ partner.name }}">
