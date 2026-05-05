@@ -52,24 +52,6 @@ layout: default
         width: 100%;
         padding: 1rem 0;
     }
-    .agil-marquee-wrapper::before, .agil-marquee-wrapper::after {
-        content: "";
-        position: absolute;
-        top: 0; width: 150px; height: 100%;
-        z-index: 10; pointer-events: none;
-    }
-    .agil-marquee-wrapper::before {
-        left: 0; background: linear-gradient(to right, var(--agil-bg) 0%, rgba(255,255,255,0) 100%);
-    }
-    .agil-marquee-wrapper::after {
-        right: 0; background: linear-gradient(to left, var(--agil-bg) 0%, rgba(255,255,255,0) 100%);
-    }
-    [data-theme="dark"] .agil-marquee-wrapper::before {
-        background: linear-gradient(to right, #0f172a 0%, rgba(15,23,42,0) 100%);
-    }
-    [data-theme="dark"] .agil-marquee-wrapper::after {
-        background: linear-gradient(to left, #0f172a 0%, rgba(15,23,42,0) 100%);
-    }
     .agil-marquee-track {
         display: inline-flex !important;
         flex-direction: row !important;
@@ -81,15 +63,15 @@ layout: default
     .agil-marquee-slide {
         display: flex !important;
         align-items: center; justify-content: center;
-        width: 280px; flex-shrink: 0;
-        padding: 0 40px;
+        width: 200px; flex-shrink: 0;
+        padding: 0 10px;
     }
     .agil-marquee-slide img {
-        height: 60px; width: auto; max-width: 200px;
-        object-fit: contain; filter: grayscale(1); opacity: 0.6; transition: 0.3s;
+        height: 60px; width: auto; max-width: 180px;
+        object-fit: contain; transition: 0.3s;
     }
     .agil-marquee-slide:hover img {
-        filter: grayscale(0); opacity: 1; transform: scale(1.1);
+        transform: scale(1.1);
     }
     @keyframes agil-marquee-scroll {
         from { transform: translateX(0); }
