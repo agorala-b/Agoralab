@@ -32,13 +32,13 @@ work_experience:
   year: May 2025 - Present
 - title: Research Assistant
   institution: Center for Environmental Intelligence - VinUniversity
-  year: Nov 2025 - Present
+  year: Nov 2025 - Apr 2026
 - title: Researcher
   institution: AIBioMed Laboratory - Taipei Medical University, Taipei, Taiwan
   year: Jun 2025 - Jan 2026
 - title: Researcher
   institution: Computer Vision and Robotics & Cognitive Machine Intelligence of VNUIS
-  year: Oct 2024 - Present
+  year: Oct 2024 - May 2026
 - title: AI Intern
   institution: BKAV AI Corp
   year: Jul 2024 - Nov 2024
