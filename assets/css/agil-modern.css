@@ -342,7 +342,7 @@ input:checked+.slider:before {
 .agil-footer {
     background-color: var(--agil-footer-bg);
     color: var(--agil-footer-text);
-    padding: 3rem 1.5rem 1rem;
+    padding: 3rem 1.5rem 1.5rem;
     margin-top: 4rem;
 }
 
@@ -356,17 +356,30 @@ input:checked+.slider:before {
 
 .agil-contact-info h3 {
     color: var(--agil-primary-light);
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+.agil-contact-info p {
+    margin-bottom: 0.5rem;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 0.95rem;
 }
 
 .agil-contact-info a {
     color: var(--agil-primary-light);
     text-decoration: none;
+    transition: color var(--agil-transition);
+}
+
+.agil-contact-info a:hover {
+    color: white;
 }
 
 .agil-footer-bottom {
     text-align: center;
-    padding-top: 2rem;
+    padding-top: 1.5rem;
     border-top: 1px solid rgba(255, 255, 255, 0.1);
     color: #9ca3af;
     font-size: 0.875rem;
