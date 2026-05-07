@@ -241,5 +241,24 @@
     "venue": "The Conference on Information Technology and its Applications (CITA) 2026",
     "thumbnail": "assets/images/Publication/Struct.png",
     "paper_link": ""
+  },
+  {
+    "title": "A Hierarchical Framework for Real-Time Multi-person Pose Estimation",
+    "authors": "N. D. Quang-Anh, Minh Anh Nguyen, Thao Phuong Pham & Dinh-Tan Pham",
+    "year": 2025,
+    "type": "Chapter",
+    "venue": "Intelligent Aerial Access and Applications Towards 6G and Beyond
+(IAAA 2025)",
+    "thumbnail": "assets/images/Publication/Hierarchical.png",
+    "paper_link": "https://link.springer.com/chapter/10.1007/978-3-032-14935-0_25"
+  },
+  {
+    "title": "EfficientEndoSeg: A Lightweight YOLOv5-Based Framework for Endoscopic Surgical Instrument Segmentation and Skill-Related Motion Analysis",
+    "authors": "Thai Dinh Kim, Quang-Anh Nguyen-Duc, Minh-Duc Pham, Duy-Tung Doan, Manh-Hung Nguyen, Xuan-Hai Le, Ngoc-Thanh Pham",
+    "year": 2026,
+    "type": "Chapter",
+    "venue": "IEEE Access",
+    "thumbnail": "assets/images/Publication/EfficientEndoSeg.png",
+    "paper_link": ""
   }
 ]
