@@ -22,8 +22,9 @@ layout: default
     <h2 class="agil-section-title">About Us</h2>
     <div class="agil-about-content" style="line-height: 1.8; color: var(--agil-text); font-size: 1.05rem;">
         <p><b style="color:#339966;">Agora Intelligence Lab (AgIL)</b> is an independent, open research lab currently
-            not affiliated with any institution or organization yet. AgIL is founded on the principle of academic freedom, 
-            fostering a collaborative environment where researchers, students, and practitioners can explore and develop 
+            not affiliated with any institution or organization yet. AgIL is founded on the principle of academic
+            freedom,
+            fostering a collaborative environment where researchers, students, and practitioners can explore and develop
             innovative ideas without structural constraints. AgIL adopts a multi-disciplinary and multi problem
             oriented approach to AI research. Rather than focusing solely on technical dimensions, the lab embraces a
             broad spectrum of domains surrounding AI, including computer science, social sciences, linguistics,
@@ -64,7 +65,7 @@ layout: default
 </section>
 
 <!-- Part 4: Recent News (Combined News & Activities, Client-side pagination) -->
-<section class="agil-section" id="news" style="padding-top: 1rem;">
+<section class="agil-section" id="news" style="padding-top: 1rem; padding-bottom: 1.5rem;">
     <h2 class="agil-section-title">Recent News</h2>
     <div class="agil-news-container" id="news-container">
         {% for news in site.data.news %}
@@ -86,54 +87,74 @@ layout: default
 <!-- Our Partner Infinite Marquee -->
 <style>
     .agil-marquee-container {
-        padding: 4rem 0;
+        padding: 1.5rem 0 0;
         background: var(--agil-bg);
         overflow: hidden;
     }
+
     .agil-marquee-wrapper {
         overflow: hidden;
         position: relative;
         width: 100%;
         padding: 1rem 0;
     }
+
     .agil-marquee-track {
         display: flex !important;
         flex-direction: row !important;
-        flex-wrap: wrap !important; /* Cho phép xuống hàng nếu quá nhiều khi ở trạng thái static */
-        justify-content: center !important; /* Căn giữa khi static */
+        flex-wrap: wrap !important;
+        /* Cho phép xuống hàng nếu quá nhiều khi ở trạng thái static */
+        justify-content: center !important;
+        /* Căn giữa khi static */
         width: 100% !important;
-        /* animation: agil-marquee-scroll 40s linear infinite; */ /* Xoá comment dòng này để bật hiệu ứng chạy loop */
+        /* animation: agil-marquee-scroll 40s linear infinite; */
+        /* Xoá comment dòng này để bật hiệu ứng chạy loop */
         will-change: transform;
     }
+
     .agil-marquee-slide {
         display: flex !important;
-        align-items: center; justify-content: center;
-        width: 350px; flex-shrink: 0;
-        padding: 10px 20px;
+        align-items: center;
+        justify-content: center;
+        width: 250px;
+        flex-shrink: 0;
+        padding: 5px 10px;
     }
+
     .agil-marquee-slide img {
-        height: 100px; width: auto; max-width: 320px;
-        object-fit: contain; transition: 0.3s;
+        height: 100px;
+        width: auto;
+        max-width: 320px;
+        object-fit: contain;
+        transition: 0.3s;
     }
+
     .agil-marquee-slide:hover img {
         transform: scale(1.1);
     }
+
     @keyframes agil-marquee-scroll {
-        from { transform: translateX(0); }
-        to { transform: translateX(-50%); }
+        from {
+            transform: translateX(0);
+        }
+
+        to {
+            transform: translateX(-50%);
+        }
     }
 </style>
 
 <section class="agil-marquee-container">
-    <h2 class="agil-section-title" style="margin-bottom: 2rem;">Our Partners</h2>
+    <h2 class="agil-section-title" style="margin-bottom: 2rem; margin-top: 0;">Our Partners</h2>
     <div class="agil-marquee-wrapper">
         <div class="agil-marquee-track">
-            {% for i in (1..1) %} <!-- Đổi số 1 thành 8 nếu muốn bật hiệu ứng chạy loop (sau khi đã mở comment phần animation ở trên) -->
-                {% for partner in site.data.partners %}
-                <div class="agil-marquee-slide">
-                    <img src="{{ partner.logo | relative_url }}" alt="{{ partner.name }}">
-                </div>
-                {% endfor %}
+            {% for i in (1..1) %}
+            <!-- Đổi số 1 thành 8 nếu muốn bật hiệu ứng chạy loop (sau khi đã mở comment phần animation ở trên) -->
+            {% for partner in site.data.partners %}
+            <div class="agil-marquee-slide">
+                <img src="{{ partner.logo | relative_url }}" alt="{{ partner.name }}">
+            </div>
+            {% endfor %}
             {% endfor %}
         </div>
     </div>

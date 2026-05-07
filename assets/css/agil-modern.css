@@ -343,7 +343,7 @@ input:checked+.slider:before {
     background-color: var(--agil-footer-bg);
     color: var(--agil-footer-text);
     padding: 3rem 1.5rem 1.5rem;
-    margin-top: 4rem;
+    margin-top: 0;
 }
 
 .agil-footer-container {
