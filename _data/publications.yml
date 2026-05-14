@@ -93,8 +93,8 @@
     "title": "O3D-Net: A Lightweight Neural ODE-Based Architecture for Efficient Skeleton-Based Human Action Recognition",
     "authors": "Pham, Minh-Duc and Nguyen, Duc Quang-Anh and Tran, Tien Nam and Nguyen, Minh Anh and Nguyen, Hai Nam",
     "year": 2025,
-    "type": "conference",
-    "venue": "The 14th International Conference on Computational Data and Social Networks (CANS 2025)",
+    "type": "chapter",
+    "venue": "The 14th International Conference on Computational Data and Social Networks (CsoNet 2025)",
     "thumbnail": "assets/images/Publication/o3d.jpg",
     "paper_link": "https://www.researchgate.net/publication/396848858_O3D-Net_A_Lightweight_Neural_ODE-Based_Architecture_for_Efficient_Skeleton-Based_Human_Action_Recognition?_tp=eyJjb250ZXh0Ijp7ImZpcnN0UGFnZSI6InByb2ZpbGUiLCJwYWdlIjoicHJvZmlsZSJ9fQ"
   },
@@ -102,8 +102,8 @@
     "title": "LLaMA3-Inspired Autoregressive Visual-Textual Fusion Augmented Stable Diffusion for Emoji Generation",
     "authors": "Nguyen, Duc Quang-Anh and Tran, Tiep Quang and Pham, Minh-Duc and Tran, Ngoc Tien and Michael, Omar",
     "year": 2025,
-    "type": "conference",
-    "venue": "The 14th International Conference on Computational Data and Social Networks (CANS 2025)",
+    "type": "chapter",
+    "venue": "The 14th International Conference on Computational Data and Social Networks (CsoNet 2025)",
     "thumbnail": "assets/images/Publication/llm.png",
     "paper_link": "https://www.researchgate.net/publication/396848933_LLaMA3-Inspired_Autoregressive_Visual-Textual_Fusion_Augmented_Stable_Diffusion_for_Emoji_Generation"
   },
@@ -166,7 +166,7 @@
     "authors": "Nguyen, Duc Quang-Anh and Kim, Dinh Thai and Nguyen, Quynh-Chi and Nguyen, Van-Ninh",
     "year": 2025,
     "type": "conference",
-    "venue": "2025 INTERNATIONAL CONFERENCE ON ADVANCED TECHNOLOGIES FOR COMMUNICATIONS",
+    "venue": "2025 International Conference on Advanced Technologies for Communications",
     "thumbnail": "assets/images/Publication/egg.jpg",
     "paper_link": "http://doi.org/10.1109/ATC67618.2025.11268727"
   },

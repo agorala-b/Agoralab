@@ -16,6 +16,12 @@ bundle config set --local path 'vendor/bundle'
 ```
 
 ### 1.2 Chay server local
+Cach nhanh nhat:
+```bash
+sh scripts/build_help.sh
+```
+
+Hoac chay tung buoc:
 ```bash
 bundle install
 bundle exec jekyll serve --livereload
