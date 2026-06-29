@@ -12,7 +12,7 @@ job_title: UnderGraduate Student
 layout: person
 linkedin: null
 order: 2
-photo: /assets/images/people/pham_toan.jpg
+photo: /assets/images/people/pham_toan1.jpg
 role_group: Research Assistants
 scholar: null
 title: Pham Sy Toan

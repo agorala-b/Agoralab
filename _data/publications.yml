@@ -260,5 +260,16 @@
     "venue": "IEEE Access",
     "thumbnail": "assets/images/Publication/EfficientEndoSeg.png",
     "paper_link": ""
+  },
+  {
+    "title": "Cross-Modalities Contrastive Learning for
+UAV-based Waterfowl Monitoring",
+    "authors": "Nguyen Xuan Truong, Minh-Anh Nguyen, Quang Anh N. D., Vu Xuan Thang, Nguyen Van Thang, Duc-Tan Tran, Khoa Dang Nguyen",
+    "year": 2026,
+    "type": "conference",
+    "venue": "IEEE ICCE 2026",
+    "thumbnail": "assets/images/Publication/ECCI.png",
+    "paper_link": "" 
   }
+
 ]

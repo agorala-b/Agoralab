@@ -15,7 +15,7 @@ layout: person
 linkedin: https://linkedin.com/in/minh-anh-nguy%E1%BB%85n-5ab992367/
 order: 1
 photo: /assets/images/people/nguyen_minh_anh.jpeg
-role_group: Executive Board
+role_group: Alumni
 scholar: null
 work_experience:
 - title: Researcher
