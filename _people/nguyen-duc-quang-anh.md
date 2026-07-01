@@ -51,7 +51,7 @@ work_experience:
 research_grant:
 - "Core research challenges in digital twinning for crisis resilience, EPSRC, £4.3m, 2025-2028"
 - "QuanDT: Quantum Computing-Assisted Digital Twinning for Enhanced Open RAN Towards 6G,” British Council, International Science Partnerships Fund – International Research Collaborations (Japan), 2025-2027, £93,324"
-- "StrokeDT: Early Intervention for Minor Stroke Patients in Vietnam and Indonesia using Digital Twinning,” ISPF – International Research Collaborations, British Council, 2024-2026"
+- "StrokeDT: Early Intervention for Minor Stroke Patients in Vietnam and Indonesia using Digital Twinning,” ISPF – International Research Collaborations, British Council, 2024-2026, £99,890"
 # publications:
 
 # - "[Google Scholar](https://scholar.google.com/citations?user=mEouKaQAAAAJ&hl=en)"
