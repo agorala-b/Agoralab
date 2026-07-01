@@ -18,15 +18,15 @@ photo: /assets/images/people/nguyen_minh_anh.jpeg
 role_group: Alumni
 scholar: null
 work_experience:
+- title: AI Engineer
+  institution: CMC Global
+  year: April 2026 - Now
 - title: Researcher
   institution: Computer Vision and Robotics of VNUIS
   year: Oct 2024 - May 2026
 - title: Researcher
   institution: Intelligent Control & Artificial Intelligence Laboratory - VNUIS
   year: Jan 2023 - Sep 2024
-- title: AI Engineer
-  institution: CMC Global
-  year: April 2026 - Now
 publications:
 - "[ResearchGate Profile](https://www.researchgate.net/profile/Minh-Anh-Nguyen-44?ev=hdr_xprf)"
 title: Nguyen Minh Anh
