@@ -4,7 +4,7 @@ awards:
 - Top 8, SOICT Hackathon 2024
 - Third Prize, VNU Student Scientific Research Competition 2025
 - First Prize, Ideathon Edtech HUST 2025
-department:  Multidisciplinary Artifical Intellegence
+department: Multidisciplinary Artifical Intellegence
 educations:
 - degree: Bachelor
   field: Applied Information Technology
@@ -27,9 +27,9 @@ work_experience:
 - title: Research Scholar
   institution: London Digital Twin Research Centre, Middlesex University, UK
   year: "Jan 2026 - Present"
-- title: Researcher
+- title: Research Intern
   institution: Cognitive Robotics Lab, University of Arkansas, Arkansas, USA
-  year: May 2025 - Present
+  year: May 2025 - June 2026
 - title: Research Assistant
   institution: Center for Environmental Intelligence - VinUniversity
   year: Nov 2025 - Apr 2026
@@ -38,7 +38,7 @@ work_experience:
   year: Jun 2025 - Jan 2026
 - title: Researcher
   institution: Computer Vision and Robotics & Cognitive Machine Intelligence of VNUIS
-  year: Oct 2024 - May 2026
+  year: Oct 2024 - June 2026
 - title: AI Intern
   institution: BKAV AI Corp
   year: Jul 2024 - Nov 2024
@@ -48,9 +48,14 @@ work_experience:
 - title: Research Intern
   institution: Human Resource Development Center, Vietnam National University, Hanoi
   year: Oct 2023 - Jan 2024
-publications:
-- "[ResearchGate Profile](https://www.researchgate.net/profile/Quang-Anh-Nd)"
-title: Quang-Anh N. D.
+research_grant:
+- "Core research challenges in digital twinning for crisis resilience, EPSRC, £4.3m, 2025-2028"
+- "QuanDT: Quantum Computing-Assisted Digital Twinning for Enhanced Open RAN Towards 6G,” British Council, International Science Partnerships Fund – International Research Collaborations (Japan), 2025-2027, £93,324"
+- "StrokeDT: Early Intervention for Minor Stroke Patients in Vietnam and Indonesia using Digital Twinning,” ISPF – International Research Collaborations, British Council, 2024-2026, £99,890"
+# publications:
+
+# - "[Google Scholar](https://scholar.google.com/citations?user=mEouKaQAAAAJ&hl=en)"
+# title: Quang-Anh N. D.
 ---
 
 Quang-Anh N. D. gain his Bachelor's degree in Applied Information Technology at the International School, Vietnam National University, Hanoi. His research interests include multidisciplinary applications research on AI and Data Science.

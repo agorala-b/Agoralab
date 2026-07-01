@@ -156,6 +156,23 @@ layout: default
             </div>
             {% endif %}
 
+            {% if page.research_grant %}
+            <div style="margin-bottom: 2.5rem;">
+                <h2
+                    style="font-size: 1.5rem; color: var(--agil-primary); border-bottom: 2px solid var(--agil-border); padding-bottom: 0.5rem; margin-bottom: 1.5rem;">
+                    Research Grants</h2>
+                <ul style="list-style: none; padding: 0;">
+                    {% for grant in page.research_grant %}
+                    <li style="margin-bottom: 0.75rem; padding-left: 1.5rem; position: relative;">
+                        <span
+                            style="position: absolute; left: 0; top: 10px; width: 6px; height: 6px; background: var(--agil-primary-light); border-radius: 50%;"></span>
+                        {{ grant }}
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+            {% endif %}
+
             {% if page.services %}
             <div style="margin-bottom: 2.5rem;">
                 <h2

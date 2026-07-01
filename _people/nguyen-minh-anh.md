@@ -10,7 +10,7 @@ educations:
   year: 2022–2026
 email: 22071104@vnu.edu.vn
 github: https://github.com/crybabii
-job_title: Co-chair
+job_title: Ex Co-chair
 layout: person
 linkedin: https://linkedin.com/in/minh-anh-nguy%E1%BB%85n-5ab992367/
 order: 1
@@ -19,11 +19,14 @@ role_group: Alumni
 scholar: null
 work_experience:
 - title: Researcher
-  institution: Computer Vision and Robotics & Cognitive Machine Intelligence of VNUIS
-  year: Oct 2024 - Present
+  institution: Computer Vision and Robotics of VNUIS
+  year: Oct 2024 - May 2026
 - title: Researcher
   institution: Intelligent Control & Artificial Intelligence Laboratory - VNUIS
   year: Jan 2023 - Sep 2024
+- title: AI Engineer
+  institution: CMC Global
+  year: April 2026 - Now
 publications:
 - "[ResearchGate Profile](https://www.researchgate.net/profile/Minh-Anh-Nguyen-44?ev=hdr_xprf)"
 title: Nguyen Minh Anh
