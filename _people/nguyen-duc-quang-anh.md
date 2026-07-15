@@ -22,7 +22,9 @@ scholar: https://scholar.google.com/citations?user=mEouKaQAAAAJ&hl=en
 services:
   conferences: []
   journals:
-  - Journal of Engineering Research and Reports (Ms/JERR/145247, 2025)
+  - Journal of Engineering Research and Reports
+  - Visual Computer
+  - Scientific Reports
 work_experience:
 - title: Research Scholar
   institution: London Digital Twin Research Centre, Middlesex University, UK
