@@ -269,16 +269,23 @@
     "venue": "The 11th IEEE International Conference on Communications and Electronics (ICCE 2026)",
     "thumbnail": "assets/images/Publication/ECCI.png",
     "paper_link": "" 
-
   },
   {
     "title": "Robust Prediction of Drug Interactions using Chemical Descriptors",
-    "authors": "Quang-Hien Kha, Duc-Quang-Anh Nguyen, Phi Pham-Van-Hoang, Uyen Khoi-Minh Huynh, Khoa D. Pham, Minh-Thu Phung, Tan-Phat Huynh, Hoang-Bach-Dat Le, Nguyen-Phat Vo, Minh-Hieu Do, Khanh T. Q. Le, Ngoc-Thac Pham, Huong-Giang Le, Ky-Phat Nguyen, Phan Nguyen, Thanh-Huy Nguyen, Phat K. Huynh, Minh H. N. Le, Min Xu, Nguyen Quoc Khanh Le*",
+    "authors": "Quang-Hien Kha, Duc-Quang-Anh Nguyen, Phi Pham-Van-Hoang, Uyen Khoi-Minh Huynh, Khoa D. Pham, Minh-Thu Phung, Tan-Phat Huynh, Hoang-Bach-Dat Le, Nguyen-Phat Vo, Minh-Hieu Do, Khanh T. Q. Le, Ngoc-Thac Pham, Huong-Giang Le, Ky-Phat Nguyen, Phan Nguyen, Thanh-Huy Nguyen, Phat K. Huynh, Minh H. N. Le, Min Xu, Nguyen Quoc Khanh Le",
     "year": 2026,
     "type": "journal",
-    "venue": "NPJ Digital Medicine ",
+    "venue": "npj Digital Medicine ",
     "thumbnail": "assets/images/Publication/Drug.png",
     "paper_link": "" 
-
+  },
+    {
+    "title": "xSQL: Heterogeneous Character-Level SQL Injection Detection for Digital Twin Monitoring",
+    "authors": "Hung Manh Ha, Quang-Anh N. D., Thao Phuong Pham, Thao-Anh Nguyen, Thuy Anh Ngo",
+    "year": 2026,
+    "type": "conference",
+    "venue": "Asia Pacific Signal and Information Processing Association Annual Summit and Conference (APSIPA 2026)",
+    "thumbnail": "assets/images/Publication/flow.png",
+    "paper_link": "" 
   },  
 ]
