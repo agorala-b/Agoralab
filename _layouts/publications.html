@@ -32,7 +32,7 @@ layout: default
             onmouseout="this.style.transform='none'; this.style.boxShadow='var(--agil-shadow)';">
             <!-- Thumbnail -->
             <div
-                style="width: 100%; height: 160px; overflow: hidden; background: var(--agil-muted); position: relative;">
+                style="width: 100%; height: 160px; overflow: hidden; background: var(--agil-muted); position: relative; display: flex; align-items: center; justify-content: center; padding: 0.75rem; box-sizing: border-box;">
                 <!-- Type Badge -->
                 {% assign badge_color = "var(--agil-primary)" %}
                 {% if pub.type == "journal" %}
@@ -47,7 +47,7 @@ layout: default
                     type_label }}</span>
                 <img src="{{ pub.thumbnail | relative_url }}" alt="{{ pub.title }}"
                     onerror="this.src='{{ '/assets/images/logo.png' | relative_url }}';"
-                    style="width: 100%; height: 100%; object-fit: cover;">
+                    style="width: 100%; height: 100%; object-fit: contain; object-position: center; display: block;">
             </div>
 
             <!-- Info Block -->
