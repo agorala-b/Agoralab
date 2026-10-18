@@ -20,11 +20,19 @@ photo: /assets/images/people/nguyen_duc_quang_anh.jpeg
 role_group: Executive Board
 scholar: https://scholar.google.com/citations?user=mEouKaQAAAAJ&hl=en
 services:
-  conferences: []
+  conferences:
+  - RIVF 2026
+  - CyberSciTech 2026
+  - WACV 2027
   journals:
   - Journal of Engineering Research and Reports
-  - Visual Computer
+  - The Visual Computer
   - Scientific Reports
+  - Multimedia Systems
+  - Journal of Big Data
+  - International Journal of Computational Intelligence Systems
+  - Cluster Computing
+  - Discover Artificial Intelligence
 work_experience:
 - title: Research Scholar
   institution: London Digital Twin Research Centre, Middlesex University, UK
