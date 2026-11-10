@@ -23,9 +23,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // Update active button
         const buttons = paginationContainer.querySelectorAll('button');
-        buttons.forEach(btn => btn.style.backgroundColor = 'var(--agil-muted)');
+        buttons.forEach(btn => { btn.style.backgroundColor = 'var(--agil-muted)'; btn.style.color = 'var(--agil-text)'; btn.style.borderColor = 'var(--agil-border)'; });
         if (buttons[page - 1]) {
-            buttons[page - 1].style.backgroundColor = 'var(--agil-primary-light)';
+            buttons[page - 1].style.backgroundColor = 'var(--agil-primary)';
+            buttons[page - 1].style.borderColor = 'var(--agil-primary)';
             buttons[page - 1].style.color = '#fff';
         }
     }

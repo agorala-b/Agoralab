@@ -12,6 +12,8 @@
     <meta property="og:image" content="{{ '/assets/images/logo.png' | absolute_url }}">
 
     <link rel="icon" type="image/png" href="{{ '/assets/images/logo.png' | relative_url }}">
+    <link rel="apple-touch-icon" href="{{ '/assets/images/logo.png' | relative_url }}">
+    <meta name="theme-color" content="#F97350">
     <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
     <link rel="stylesheet" href="{{ '/assets/css/agil-modern.css' | relative_url }}">
 </head>
@@ -33,10 +35,6 @@
                     class="agil-logo-img">
                 <span class="agil-brand-text">Agora Intelligence Lab</span>
             </a>
-
-            <button class="agil-hamburger" aria-label="Toggle menu" id="mobile-menu-btn">
-                <span></span><span></span><span></span>
-            </button>
 
             <div class="agil-nav-links" id="nav-links">
                 <a href="{{ '/' | relative_url }}" class="{% if page.url == '/' %}active{% endif %}">Home</a>

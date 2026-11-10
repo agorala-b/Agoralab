@@ -26,7 +26,8 @@ layout: default
         {% endif %}
 
         <!-- Publication Card -->
-        {% assign type_label = pub.type | capitalize %}
+        {% assign type_clean = pub.type | downcase | strip %}
+        {% assign type_label = type_clean | capitalize %}
         <div style="background: var(--agil-bg); border-radius: var(--agil-radius); overflow: hidden; box-shadow: var(--agil-shadow); border: 1px solid var(--agil-border); display: flex; flex-direction: column; transition: transform 0.3s, box-shadow 0.3s;"
             onmouseover="this.style.transform='translateY(-4px)'; this.style.boxShadow='var(--agil-shadow-lg)';"
             onmouseout="this.style.transform='none'; this.style.boxShadow='var(--agil-shadow)';">
@@ -34,16 +35,20 @@ layout: default
             <div
                 style="width: 100%; height: 160px; overflow: hidden; background: var(--agil-muted); position: relative; display: flex; align-items: center; justify-content: center;">
                 <!-- Type Badge -->
-                {% assign badge_color = "var(--agil-primary)" %}
-                {% if pub.type == "journal" %}
-                {% assign badge_color = "#D4AF37" %}
-                {% elsif pub.type == "conference" %}
-                {% assign badge_color = "#E53935" %}
-                {% elsif pub.type == "chapter" %}
-                {% assign badge_color = "#1E88E5" %}
+                {% assign badge_color = "var(--agil-primary, #F97350)" %}
+                {% assign badge_text = "#ffffff" %}
+                {% if type_clean == "journal" %}
+                {% assign badge_color = "#FAD06C" %}
+                {% assign badge_text = "#1f2937" %}
+                {% elsif type_clean == "conference" %}
+                {% assign badge_color = "#99FF66" %}
+                {% assign badge_text = "#111827" %}
+                {% elsif type_clean == "chapter" %}
+                {% assign badge_color = "#FF9966" %}
+                {% assign badge_text = "#111827" %}
                 {% endif %}
                 <span
-                    style="position: absolute; top: 1rem; right: 1rem; background: {{ badge_color }}; color: white; padding: 4px 12px; border-radius: 20px; font-size: 0.75rem; font-weight: 600; z-index: 10; box-shadow: var(--agil-shadow);">{{
+                    style="position: absolute; top: 1rem; right: 1rem; background: {{ badge_color }}; color: {{ badge_text }}; padding: 4px 12px; border-radius: 20px; font-size: 0.75rem; font-weight: 600; z-index: 10; box-shadow: var(--agil-shadow);">{{
                     type_label }}</span>
                 <img src="{{ pub.thumbnail | relative_url }}" alt="{{ pub.title }}"
                     onerror="this.src='{{ '/assets/images/logo.png' | relative_url }}';"

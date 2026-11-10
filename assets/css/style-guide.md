@@ -4,14 +4,14 @@
 
 | Token          | Hex       | Usage                                    |
 |----------------|-----------|------------------------------------------|
-| `--primary`    | `#339966` | Navbar, buttons, headings, accents       |
-| `--primary-light` | `#3db576` | Hover states, lighter accents         |
-| `--primary-dark`  | `#2a7d53` | Active states, dark accents           |
+| `--primary`    | `#F97350` | Navbar, buttons, headings, accents       |
+| `--primary-light` | `#FA8C6E` | Hover states, lighter accents         |
+| `--primary-dark`  | `#E05A36` | Active states, dark accents           |
 | `--bg`         | `#ffffff` | Page background                          |
-| `--muted`      | `#f5f7f6` | Section backgrounds, cards               |
+| `--muted`      | `#F7F2E5` | Section backgrounds, cards               |
 | `--text`       | `#1f2937` | Primary text color                       |
 | `--text-light` | `#6b7280` | Secondary text, descriptions             |
-| `--border`     | `#e5e7eb` | Borders, dividers                        |
+| `--border`     | `#E8E2D5` | Borders, dividers                        |
 
 ## Typography
 

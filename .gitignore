@@ -4,3 +4,6 @@ _site/
 vendor/
 .sass-cache/
 .jekyll-metadata
+
+__pycache__/
+*.pyc

@@ -1,7 +1,7 @@
 /*
  * ============================================================
  * AgIL Lab — Unified Stylesheet
- * Palette chủ đạo: xanh lá #339966 + trắng
+ * Palette chủ đạo: cam #F97350, vàng #FAD06C, kem #F7F2E5, taupe #B7AC9A
  * Lý do tạo file: thay thế des.css, mem.css, style.css
  * (gộp tất cả vào một file duy nhất để dễ maintain)
  * Rollback: xoá file này, khôi phục link cũ trong HTML
@@ -11,14 +11,17 @@
 /* ===================== CSS CUSTOM PROPERTIES ===================== */
 :root {
     /* Màu chính */
-    --primary: #339966;
-    --primary-light: #3db576;
-    --primary-dark: #2a7d53;
+    --primary: #F97350;
+    --primary-light: #FA8C6E;
+    --primary-dark: #E05A36;
+    --secondary: #FAD06C;
+    --cream: #F7F2E5;
+    --taupe: #B7AC9A;
     --bg: #ffffff;
-    --muted: #f5f7f6;
+    --muted: #F7F2E5;
     --text: #1f2937;
     --text-light: #6b7280;
-    --border: #e5e7eb;
+    --border: #E8E2D5;
 
     /* Typography — Đổi font chính sang Calibri */
     --font-family: Calibri, Arial, sans-serif;
